@@ -5143,7 +5143,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <sheet>
 <plain>
 <text x="2.54" y="5.08" size="1.778" layer="97">V11: ID Pin Broken out</text>
-<text x="161.798" y="25.4" size="1.778" layer="91">Pearce Melcher</text>
+<text x="161.798" y="25.4" size="1.778" layer="91">Eric Orosel</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5154,7 +5154,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="JP5" gate="G$1" x="99.06" y="101.6"/>
 <instance part="U$2" gate="G$1" x="149.86" y="25.4"/>
 <instance part="U$3" gate="G$1" x="236.22" y="45.72"/>
-<instance part="U$4" gate="G$1" x="157.48" y="101.6"/>
+<instance part="U$4" gate="G$1" x="101.6" y="83.82" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5162,61 +5162,61 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="GND" class="0">
 <segment>
 <wire x1="106.68" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
-<label x="111.76" y="96.52" size="1.778" layer="95"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
+<label x="116.84" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="GND"/>
-<wire x1="152.4" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
-<label x="137.16" y="106.68" size="1.778" layer="95"/>
+<wire x1="106.68" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<label x="116.84" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D+" class="0">
 <segment>
 <wire x1="106.68" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
-<label x="111.76" y="101.6" size="1.778" layer="95"/>
 <pinref part="JP5" gate="G$1" pin="3"/>
+<label x="116.84" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="D+"/>
-<wire x1="152.4" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
-<label x="137.16" y="101.6" size="1.778" layer="95"/>
+<wire x1="106.68" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
+<label x="116.84" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
 <wire x1="106.68" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
-<label x="111.76" y="104.14" size="1.778" layer="95"/>
 <pinref part="JP5" gate="G$1" pin="4"/>
+<label x="116.84" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="D-"/>
-<wire x1="152.4" y1="99.06" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
-<label x="137.16" y="99.06" size="1.778" layer="95"/>
+<wire x1="106.68" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
+<label x="116.84" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
 <segment>
 <wire x1="106.68" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
-<label x="111.76" y="106.68" size="1.778" layer="95"/>
 <pinref part="JP5" gate="G$1" pin="5"/>
+<label x="116.84" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="VBUS"/>
-<wire x1="152.4" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
-<label x="137.16" y="96.52" size="1.778" layer="95"/>
+<wire x1="106.68" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<label x="116.84" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ID" class="0">
 <segment>
 <wire x1="106.68" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
-<label x="111.76" y="99.06" size="1.778" layer="95"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
+<label x="116.84" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="USBID"/>
-<wire x1="152.4" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
-<label x="137.16" y="104.14" size="1.778" layer="95"/>
+<wire x1="106.68" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+<label x="116.84" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
