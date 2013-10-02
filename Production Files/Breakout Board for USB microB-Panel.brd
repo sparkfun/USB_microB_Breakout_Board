@@ -1,0 +1,3010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="0" y2="11.43" width="0.254" layer="20"/>
+<wire x1="0" y1="11.43" x2="20.32" y2="11.43" width="0.254" layer="20"/>
+<wire x1="20.32" y1="11.43" x2="20.32" y2="0" width="0.254" layer="20"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="20"/>
+<text x="14.605" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="9.525" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="6.985" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="4.445" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="14.986" y="0.762" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="12.065" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="20.828" y1="0" x2="20.828" y2="11.43" width="0.254" layer="20"/>
+<wire x1="20.828" y1="11.43" x2="41.148" y2="11.43" width="0.254" layer="20"/>
+<wire x1="41.148" y1="11.43" x2="41.148" y2="0" width="0.254" layer="20"/>
+<wire x1="41.148" y1="0" x2="20.828" y2="0" width="0.254" layer="20"/>
+<text x="35.433" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="30.353" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="27.813" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="25.273" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="35.814" y="0.762" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="32.893" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="41.656" y1="0" x2="41.656" y2="11.43" width="0.254" layer="20"/>
+<wire x1="41.656" y1="11.43" x2="61.976" y2="11.43" width="0.254" layer="20"/>
+<wire x1="61.976" y1="11.43" x2="61.976" y2="0" width="0.254" layer="20"/>
+<wire x1="61.976" y1="0" x2="41.656" y2="0" width="0.254" layer="20"/>
+<text x="56.261" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="51.181" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="48.641" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="46.101" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="56.642" y="0.762" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="53.721" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="62.484" y1="0" x2="62.484" y2="11.43" width="0.254" layer="20"/>
+<wire x1="62.484" y1="11.43" x2="82.804" y2="11.43" width="0.254" layer="20"/>
+<wire x1="82.804" y1="11.43" x2="82.804" y2="0" width="0.254" layer="20"/>
+<wire x1="82.804" y1="0" x2="62.484" y2="0" width="0.254" layer="20"/>
+<text x="77.089" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="72.009" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="69.469" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="66.929" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="77.47" y="0.762" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="74.549" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="83.312" y1="0" x2="83.312" y2="11.43" width="0.254" layer="20"/>
+<wire x1="83.312" y1="11.43" x2="103.632" y2="11.43" width="0.254" layer="20"/>
+<wire x1="103.632" y1="11.43" x2="103.632" y2="0" width="0.254" layer="20"/>
+<wire x1="103.632" y1="0" x2="83.312" y2="0" width="0.254" layer="20"/>
+<text x="97.917" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="92.837" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="90.297" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="87.757" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="98.298" y="0.762" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="95.377" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="104.14" y1="0" x2="104.14" y2="11.43" width="0.254" layer="20"/>
+<wire x1="104.14" y1="11.43" x2="124.46" y2="11.43" width="0.254" layer="20"/>
+<wire x1="124.46" y1="11.43" x2="124.46" y2="0" width="0.254" layer="20"/>
+<wire x1="124.46" y1="0" x2="104.14" y2="0" width="0.254" layer="20"/>
+<text x="118.745" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="113.665" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="111.125" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="108.585" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="119.126" y="0.762" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="116.205" y="8.763" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="0" y1="13.97" x2="0" y2="25.4" width="0.254" layer="20"/>
+<wire x1="0" y1="25.4" x2="20.32" y2="25.4" width="0.254" layer="20"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="13.97" width="0.254" layer="20"/>
+<wire x1="20.32" y1="13.97" x2="0" y2="13.97" width="0.254" layer="20"/>
+<text x="14.605" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="9.525" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="6.985" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="4.445" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="14.986" y="14.732" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="12.065" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="20.828" y1="13.97" x2="20.828" y2="25.4" width="0.254" layer="20"/>
+<wire x1="20.828" y1="25.4" x2="41.148" y2="25.4" width="0.254" layer="20"/>
+<wire x1="41.148" y1="25.4" x2="41.148" y2="13.97" width="0.254" layer="20"/>
+<wire x1="41.148" y1="13.97" x2="20.828" y2="13.97" width="0.254" layer="20"/>
+<text x="35.433" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="30.353" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="27.813" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="25.273" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="35.814" y="14.732" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="32.893" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="41.656" y1="13.97" x2="41.656" y2="25.4" width="0.254" layer="20"/>
+<wire x1="41.656" y1="25.4" x2="61.976" y2="25.4" width="0.254" layer="20"/>
+<wire x1="61.976" y1="25.4" x2="61.976" y2="13.97" width="0.254" layer="20"/>
+<wire x1="61.976" y1="13.97" x2="41.656" y2="13.97" width="0.254" layer="20"/>
+<text x="56.261" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="51.181" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="48.641" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="46.101" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="56.642" y="14.732" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="53.721" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="62.484" y1="13.97" x2="62.484" y2="25.4" width="0.254" layer="20"/>
+<wire x1="62.484" y1="25.4" x2="82.804" y2="25.4" width="0.254" layer="20"/>
+<wire x1="82.804" y1="25.4" x2="82.804" y2="13.97" width="0.254" layer="20"/>
+<wire x1="82.804" y1="13.97" x2="62.484" y2="13.97" width="0.254" layer="20"/>
+<text x="77.089" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="72.009" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="69.469" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="66.929" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="77.47" y="14.732" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="74.549" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="83.312" y1="13.97" x2="83.312" y2="25.4" width="0.254" layer="20"/>
+<wire x1="83.312" y1="25.4" x2="103.632" y2="25.4" width="0.254" layer="20"/>
+<wire x1="103.632" y1="25.4" x2="103.632" y2="13.97" width="0.254" layer="20"/>
+<wire x1="103.632" y1="13.97" x2="83.312" y2="13.97" width="0.254" layer="20"/>
+<text x="97.917" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="92.837" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="90.297" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="87.757" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="98.298" y="14.732" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="95.377" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="104.14" y1="13.97" x2="104.14" y2="25.4" width="0.254" layer="20"/>
+<wire x1="104.14" y1="25.4" x2="124.46" y2="25.4" width="0.254" layer="20"/>
+<wire x1="124.46" y1="25.4" x2="124.46" y2="13.97" width="0.254" layer="20"/>
+<wire x1="124.46" y1="13.97" x2="104.14" y2="13.97" width="0.254" layer="20"/>
+<text x="118.745" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="113.665" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="111.125" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="108.585" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="119.126" y="14.732" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="116.205" y="22.733" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="0" y1="27.94" x2="0" y2="39.37" width="0.254" layer="20"/>
+<wire x1="0" y1="39.37" x2="20.32" y2="39.37" width="0.254" layer="20"/>
+<wire x1="20.32" y1="39.37" x2="20.32" y2="27.94" width="0.254" layer="20"/>
+<wire x1="20.32" y1="27.94" x2="0" y2="27.94" width="0.254" layer="20"/>
+<text x="14.605" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="9.525" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="6.985" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="4.445" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="14.986" y="28.702" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="12.065" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="20.828" y1="27.94" x2="20.828" y2="39.37" width="0.254" layer="20"/>
+<wire x1="20.828" y1="39.37" x2="41.148" y2="39.37" width="0.254" layer="20"/>
+<wire x1="41.148" y1="39.37" x2="41.148" y2="27.94" width="0.254" layer="20"/>
+<wire x1="41.148" y1="27.94" x2="20.828" y2="27.94" width="0.254" layer="20"/>
+<text x="35.433" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="30.353" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="27.813" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="25.273" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="35.814" y="28.702" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="32.893" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="41.656" y1="27.94" x2="41.656" y2="39.37" width="0.254" layer="20"/>
+<wire x1="41.656" y1="39.37" x2="61.976" y2="39.37" width="0.254" layer="20"/>
+<wire x1="61.976" y1="39.37" x2="61.976" y2="27.94" width="0.254" layer="20"/>
+<wire x1="61.976" y1="27.94" x2="41.656" y2="27.94" width="0.254" layer="20"/>
+<text x="56.261" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="51.181" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="48.641" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="46.101" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="56.642" y="28.702" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="53.721" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="62.484" y1="27.94" x2="62.484" y2="39.37" width="0.254" layer="20"/>
+<wire x1="62.484" y1="39.37" x2="82.804" y2="39.37" width="0.254" layer="20"/>
+<wire x1="82.804" y1="39.37" x2="82.804" y2="27.94" width="0.254" layer="20"/>
+<wire x1="82.804" y1="27.94" x2="62.484" y2="27.94" width="0.254" layer="20"/>
+<text x="77.089" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="72.009" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="69.469" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="66.929" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="77.47" y="28.702" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="74.549" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="83.312" y1="27.94" x2="83.312" y2="39.37" width="0.254" layer="20"/>
+<wire x1="83.312" y1="39.37" x2="103.632" y2="39.37" width="0.254" layer="20"/>
+<wire x1="103.632" y1="39.37" x2="103.632" y2="27.94" width="0.254" layer="20"/>
+<wire x1="103.632" y1="27.94" x2="83.312" y2="27.94" width="0.254" layer="20"/>
+<text x="97.917" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="92.837" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="90.297" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="87.757" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="98.298" y="28.702" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="95.377" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="104.14" y1="27.94" x2="104.14" y2="39.37" width="0.254" layer="20"/>
+<wire x1="104.14" y1="39.37" x2="124.46" y2="39.37" width="0.254" layer="20"/>
+<wire x1="124.46" y1="39.37" x2="124.46" y2="27.94" width="0.254" layer="20"/>
+<wire x1="124.46" y1="27.94" x2="104.14" y2="27.94" width="0.254" layer="20"/>
+<text x="118.745" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="113.665" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="111.125" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="108.585" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="119.126" y="28.702" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="116.205" y="36.703" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="0" y1="41.91" x2="0" y2="53.34" width="0.254" layer="20"/>
+<wire x1="0" y1="53.34" x2="20.32" y2="53.34" width="0.254" layer="20"/>
+<wire x1="20.32" y1="53.34" x2="20.32" y2="41.91" width="0.254" layer="20"/>
+<wire x1="20.32" y1="41.91" x2="0" y2="41.91" width="0.254" layer="20"/>
+<text x="14.605" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="9.525" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="6.985" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="4.445" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="14.986" y="42.672" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="12.065" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="20.828" y1="41.91" x2="20.828" y2="53.34" width="0.254" layer="20"/>
+<wire x1="20.828" y1="53.34" x2="41.148" y2="53.34" width="0.254" layer="20"/>
+<wire x1="41.148" y1="53.34" x2="41.148" y2="41.91" width="0.254" layer="20"/>
+<wire x1="41.148" y1="41.91" x2="20.828" y2="41.91" width="0.254" layer="20"/>
+<text x="35.433" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="30.353" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="27.813" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="25.273" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="35.814" y="42.672" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="32.893" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="41.656" y1="41.91" x2="41.656" y2="53.34" width="0.254" layer="20"/>
+<wire x1="41.656" y1="53.34" x2="61.976" y2="53.34" width="0.254" layer="20"/>
+<wire x1="61.976" y1="53.34" x2="61.976" y2="41.91" width="0.254" layer="20"/>
+<wire x1="61.976" y1="41.91" x2="41.656" y2="41.91" width="0.254" layer="20"/>
+<text x="56.261" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="51.181" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="48.641" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="46.101" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="56.642" y="42.672" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="53.721" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="62.484" y1="41.91" x2="62.484" y2="53.34" width="0.254" layer="20"/>
+<wire x1="62.484" y1="53.34" x2="82.804" y2="53.34" width="0.254" layer="20"/>
+<wire x1="82.804" y1="53.34" x2="82.804" y2="41.91" width="0.254" layer="20"/>
+<wire x1="82.804" y1="41.91" x2="62.484" y2="41.91" width="0.254" layer="20"/>
+<text x="77.089" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="72.009" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="69.469" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="66.929" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="77.47" y="42.672" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="74.549" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="83.312" y1="41.91" x2="83.312" y2="53.34" width="0.254" layer="20"/>
+<wire x1="83.312" y1="53.34" x2="103.632" y2="53.34" width="0.254" layer="20"/>
+<wire x1="103.632" y1="53.34" x2="103.632" y2="41.91" width="0.254" layer="20"/>
+<wire x1="103.632" y1="41.91" x2="83.312" y2="41.91" width="0.254" layer="20"/>
+<text x="97.917" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="92.837" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="90.297" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="87.757" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="98.298" y="42.672" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="95.377" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="104.14" y1="41.91" x2="104.14" y2="53.34" width="0.254" layer="20"/>
+<wire x1="104.14" y1="53.34" x2="124.46" y2="53.34" width="0.254" layer="20"/>
+<wire x1="124.46" y1="53.34" x2="124.46" y2="41.91" width="0.254" layer="20"/>
+<wire x1="124.46" y1="41.91" x2="104.14" y2="41.91" width="0.254" layer="20"/>
+<text x="118.745" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="113.665" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="111.125" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="108.585" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="119.126" y="42.672" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="116.205" y="50.673" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="0" y1="55.88" x2="0" y2="67.31" width="0.254" layer="20"/>
+<wire x1="0" y1="67.31" x2="20.32" y2="67.31" width="0.254" layer="20"/>
+<wire x1="20.32" y1="67.31" x2="20.32" y2="55.88" width="0.254" layer="20"/>
+<wire x1="20.32" y1="55.88" x2="0" y2="55.88" width="0.254" layer="20"/>
+<text x="14.605" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="9.525" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="6.985" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="4.445" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="14.986" y="56.642" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="12.065" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="20.828" y1="55.88" x2="20.828" y2="67.31" width="0.254" layer="20"/>
+<wire x1="20.828" y1="67.31" x2="41.148" y2="67.31" width="0.254" layer="20"/>
+<wire x1="41.148" y1="67.31" x2="41.148" y2="55.88" width="0.254" layer="20"/>
+<wire x1="41.148" y1="55.88" x2="20.828" y2="55.88" width="0.254" layer="20"/>
+<text x="35.433" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="30.353" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="27.813" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="25.273" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="35.814" y="56.642" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="32.893" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="41.656" y1="55.88" x2="41.656" y2="67.31" width="0.254" layer="20"/>
+<wire x1="41.656" y1="67.31" x2="61.976" y2="67.31" width="0.254" layer="20"/>
+<wire x1="61.976" y1="67.31" x2="61.976" y2="55.88" width="0.254" layer="20"/>
+<wire x1="61.976" y1="55.88" x2="41.656" y2="55.88" width="0.254" layer="20"/>
+<text x="56.261" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="51.181" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="48.641" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="46.101" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="56.642" y="56.642" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="53.721" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="62.484" y1="55.88" x2="62.484" y2="67.31" width="0.254" layer="20"/>
+<wire x1="62.484" y1="67.31" x2="82.804" y2="67.31" width="0.254" layer="20"/>
+<wire x1="82.804" y1="67.31" x2="82.804" y2="55.88" width="0.254" layer="20"/>
+<wire x1="82.804" y1="55.88" x2="62.484" y2="55.88" width="0.254" layer="20"/>
+<text x="77.089" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="72.009" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="69.469" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="66.929" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="77.47" y="56.642" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="74.549" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="83.312" y1="55.88" x2="83.312" y2="67.31" width="0.254" layer="20"/>
+<wire x1="83.312" y1="67.31" x2="103.632" y2="67.31" width="0.254" layer="20"/>
+<wire x1="103.632" y1="67.31" x2="103.632" y2="55.88" width="0.254" layer="20"/>
+<wire x1="103.632" y1="55.88" x2="83.312" y2="55.88" width="0.254" layer="20"/>
+<text x="97.917" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="92.837" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="90.297" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="87.757" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="98.298" y="56.642" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="95.377" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="104.14" y1="55.88" x2="104.14" y2="67.31" width="0.254" layer="20"/>
+<wire x1="104.14" y1="67.31" x2="124.46" y2="67.31" width="0.254" layer="20"/>
+<wire x1="124.46" y1="67.31" x2="124.46" y2="55.88" width="0.254" layer="20"/>
+<wire x1="124.46" y1="55.88" x2="104.14" y2="55.88" width="0.254" layer="20"/>
+<text x="118.745" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="113.665" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="111.125" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="108.585" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="119.126" y="56.642" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="116.205" y="64.643" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="0" y1="69.85" x2="0" y2="81.28" width="0.254" layer="20"/>
+<wire x1="0" y1="81.28" x2="20.32" y2="81.28" width="0.254" layer="20"/>
+<wire x1="20.32" y1="81.28" x2="20.32" y2="69.85" width="0.254" layer="20"/>
+<wire x1="20.32" y1="69.85" x2="0" y2="69.85" width="0.254" layer="20"/>
+<text x="14.605" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="9.525" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="6.985" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="4.445" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="14.986" y="70.612" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="12.065" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="20.828" y1="69.85" x2="20.828" y2="81.28" width="0.254" layer="20"/>
+<wire x1="20.828" y1="81.28" x2="41.148" y2="81.28" width="0.254" layer="20"/>
+<wire x1="41.148" y1="81.28" x2="41.148" y2="69.85" width="0.254" layer="20"/>
+<wire x1="41.148" y1="69.85" x2="20.828" y2="69.85" width="0.254" layer="20"/>
+<text x="35.433" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="30.353" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="27.813" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="25.273" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="35.814" y="70.612" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="32.893" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="41.656" y1="69.85" x2="41.656" y2="81.28" width="0.254" layer="20"/>
+<wire x1="41.656" y1="81.28" x2="61.976" y2="81.28" width="0.254" layer="20"/>
+<wire x1="61.976" y1="81.28" x2="61.976" y2="69.85" width="0.254" layer="20"/>
+<wire x1="61.976" y1="69.85" x2="41.656" y2="69.85" width="0.254" layer="20"/>
+<text x="56.261" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="51.181" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="48.641" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="46.101" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="56.642" y="70.612" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="53.721" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="62.484" y1="69.85" x2="62.484" y2="81.28" width="0.254" layer="20"/>
+<wire x1="62.484" y1="81.28" x2="82.804" y2="81.28" width="0.254" layer="20"/>
+<wire x1="82.804" y1="81.28" x2="82.804" y2="69.85" width="0.254" layer="20"/>
+<wire x1="82.804" y1="69.85" x2="62.484" y2="69.85" width="0.254" layer="20"/>
+<text x="77.089" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="72.009" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="69.469" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="66.929" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="77.47" y="70.612" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="74.549" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="83.312" y1="69.85" x2="83.312" y2="81.28" width="0.254" layer="20"/>
+<wire x1="83.312" y1="81.28" x2="103.632" y2="81.28" width="0.254" layer="20"/>
+<wire x1="103.632" y1="81.28" x2="103.632" y2="69.85" width="0.254" layer="20"/>
+<wire x1="103.632" y1="69.85" x2="83.312" y2="69.85" width="0.254" layer="20"/>
+<text x="97.917" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="92.837" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="90.297" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="87.757" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="98.298" y="70.612" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="95.377" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="104.14" y1="69.85" x2="104.14" y2="81.28" width="0.254" layer="20"/>
+<wire x1="104.14" y1="81.28" x2="124.46" y2="81.28" width="0.254" layer="20"/>
+<wire x1="124.46" y1="81.28" x2="124.46" y2="69.85" width="0.254" layer="20"/>
+<wire x1="124.46" y1="69.85" x2="104.14" y2="69.85" width="0.254" layer="20"/>
+<text x="118.745" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="113.665" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="111.125" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="108.585" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="119.126" y="70.612" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="116.205" y="78.613" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="0" y1="83.82" x2="0" y2="95.25" width="0.254" layer="20"/>
+<wire x1="0" y1="95.25" x2="20.32" y2="95.25" width="0.254" layer="20"/>
+<wire x1="20.32" y1="95.25" x2="20.32" y2="83.82" width="0.254" layer="20"/>
+<wire x1="20.32" y1="83.82" x2="0" y2="83.82" width="0.254" layer="20"/>
+<text x="14.605" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="9.525" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="6.985" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="4.445" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="14.986" y="84.582" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="12.065" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="20.828" y1="83.82" x2="20.828" y2="95.25" width="0.254" layer="20"/>
+<wire x1="20.828" y1="95.25" x2="41.148" y2="95.25" width="0.254" layer="20"/>
+<wire x1="41.148" y1="95.25" x2="41.148" y2="83.82" width="0.254" layer="20"/>
+<wire x1="41.148" y1="83.82" x2="20.828" y2="83.82" width="0.254" layer="20"/>
+<text x="35.433" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="30.353" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="27.813" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="25.273" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="35.814" y="84.582" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="32.893" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="41.656" y1="83.82" x2="41.656" y2="95.25" width="0.254" layer="20"/>
+<wire x1="41.656" y1="95.25" x2="61.976" y2="95.25" width="0.254" layer="20"/>
+<wire x1="61.976" y1="95.25" x2="61.976" y2="83.82" width="0.254" layer="20"/>
+<wire x1="61.976" y1="83.82" x2="41.656" y2="83.82" width="0.254" layer="20"/>
+<text x="56.261" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="51.181" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="48.641" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="46.101" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="56.642" y="84.582" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="53.721" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="62.484" y1="83.82" x2="62.484" y2="95.25" width="0.254" layer="20"/>
+<wire x1="62.484" y1="95.25" x2="82.804" y2="95.25" width="0.254" layer="20"/>
+<wire x1="82.804" y1="95.25" x2="82.804" y2="83.82" width="0.254" layer="20"/>
+<wire x1="82.804" y1="83.82" x2="62.484" y2="83.82" width="0.254" layer="20"/>
+<text x="77.089" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="72.009" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="69.469" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="66.929" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="77.47" y="84.582" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="74.549" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="83.312" y1="83.82" x2="83.312" y2="95.25" width="0.254" layer="20"/>
+<wire x1="83.312" y1="95.25" x2="103.632" y2="95.25" width="0.254" layer="20"/>
+<wire x1="103.632" y1="95.25" x2="103.632" y2="83.82" width="0.254" layer="20"/>
+<wire x1="103.632" y1="83.82" x2="83.312" y2="83.82" width="0.254" layer="20"/>
+<text x="97.917" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="92.837" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="90.297" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="87.757" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="98.298" y="84.582" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="95.377" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="104.14" y1="83.82" x2="104.14" y2="95.25" width="0.254" layer="20"/>
+<wire x1="104.14" y1="95.25" x2="124.46" y2="95.25" width="0.254" layer="20"/>
+<wire x1="124.46" y1="95.25" x2="124.46" y2="83.82" width="0.254" layer="20"/>
+<wire x1="124.46" y1="83.82" x2="104.14" y2="83.82" width="0.254" layer="20"/>
+<text x="118.745" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="113.665" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="111.125" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="108.585" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="119.126" y="84.582" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="116.205" y="92.583" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="0" y1="97.79" x2="0" y2="109.22" width="0.254" layer="20"/>
+<wire x1="0" y1="109.22" x2="20.32" y2="109.22" width="0.254" layer="20"/>
+<wire x1="20.32" y1="109.22" x2="20.32" y2="97.79" width="0.254" layer="20"/>
+<wire x1="20.32" y1="97.79" x2="0" y2="97.79" width="0.254" layer="20"/>
+<text x="14.605" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="9.525" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="6.985" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="4.445" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="14.986" y="98.552" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="12.065" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="20.828" y1="97.79" x2="20.828" y2="109.22" width="0.254" layer="20"/>
+<wire x1="20.828" y1="109.22" x2="41.148" y2="109.22" width="0.254" layer="20"/>
+<wire x1="41.148" y1="109.22" x2="41.148" y2="97.79" width="0.254" layer="20"/>
+<wire x1="41.148" y1="97.79" x2="20.828" y2="97.79" width="0.254" layer="20"/>
+<text x="35.433" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="30.353" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="27.813" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="25.273" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="35.814" y="98.552" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="32.893" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="41.656" y1="97.79" x2="41.656" y2="109.22" width="0.254" layer="20"/>
+<wire x1="41.656" y1="109.22" x2="61.976" y2="109.22" width="0.254" layer="20"/>
+<wire x1="61.976" y1="109.22" x2="61.976" y2="97.79" width="0.254" layer="20"/>
+<wire x1="61.976" y1="97.79" x2="41.656" y2="97.79" width="0.254" layer="20"/>
+<text x="56.261" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="51.181" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="48.641" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="46.101" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="56.642" y="98.552" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="53.721" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="62.484" y1="97.79" x2="62.484" y2="109.22" width="0.254" layer="20"/>
+<wire x1="62.484" y1="109.22" x2="82.804" y2="109.22" width="0.254" layer="20"/>
+<wire x1="82.804" y1="109.22" x2="82.804" y2="97.79" width="0.254" layer="20"/>
+<wire x1="82.804" y1="97.79" x2="62.484" y2="97.79" width="0.254" layer="20"/>
+<text x="77.089" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="72.009" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="69.469" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="66.929" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="77.47" y="98.552" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="74.549" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="83.312" y1="97.79" x2="83.312" y2="109.22" width="0.254" layer="20"/>
+<wire x1="83.312" y1="109.22" x2="103.632" y2="109.22" width="0.254" layer="20"/>
+<wire x1="103.632" y1="109.22" x2="103.632" y2="97.79" width="0.254" layer="20"/>
+<wire x1="103.632" y1="97.79" x2="83.312" y2="97.79" width="0.254" layer="20"/>
+<text x="97.917" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="92.837" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="90.297" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="87.757" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="98.298" y="98.552" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="95.377" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="104.14" y1="97.79" x2="104.14" y2="109.22" width="0.254" layer="20"/>
+<wire x1="104.14" y1="109.22" x2="124.46" y2="109.22" width="0.254" layer="20"/>
+<wire x1="124.46" y1="109.22" x2="124.46" y2="97.79" width="0.254" layer="20"/>
+<wire x1="124.46" y1="97.79" x2="104.14" y2="97.79" width="0.254" layer="20"/>
+<text x="118.745" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">GND</text>
+<text x="113.665" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
+<text x="111.125" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
+<text x="108.585" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="119.126" y="98.552" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">Micro USB</text>
+<text x="116.205" y="106.553" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ID</text>
+<wire x1="-0.508" y1="-8.89" x2="-0.508" y2="88.9" width="0.2032" layer="20"/>
+<wire x1="-6.858" y1="-8.89" x2="-0.508" y2="-8.89" width="0.2032" layer="20"/>
+<wire x1="0" y1="-8.89" x2="124.46" y2="-8.89" width="0.2032" layer="20"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-8.89" width="0.2032" layer="20"/>
+<wire x1="124.46" y1="-2.54" x2="0" y2="-2.54" width="0.2032" layer="20"/>
+<wire x1="124.46" y1="-8.89" x2="124.46" y2="-2.54" width="0.2032" layer="20"/>
+<wire x1="131.318" y1="-8.89" x2="131.318" y2="116.078" width="0.2032" layer="20"/>
+<wire x1="124.968" y1="-8.89" x2="131.318" y2="-8.89" width="0.2032" layer="20"/>
+<wire x1="124.968" y1="-8.89" x2="124.968" y2="22.86" width="0.2032" layer="20"/>
+<wire x1="124.968" y1="116.078" x2="124.968" y2="20.32" width="0.2032" layer="20"/>
+<wire x1="131.318" y1="116.078" x2="124.968" y2="116.078" width="0.2032" layer="20"/>
+<wire x1="124.46" y1="116.078" x2="0" y2="116.078" width="0.2032" layer="20"/>
+<wire x1="124.46" y1="109.728" x2="124.46" y2="116.078" width="0.2032" layer="20"/>
+<wire x1="0" y1="109.728" x2="124.46" y2="109.728" width="0.2032" layer="20"/>
+<wire x1="0" y1="116.078" x2="0" y2="109.728" width="0.2032" layer="20"/>
+<wire x1="-6.858" y1="116.078" x2="-6.858" y2="-8.89" width="0.2032" layer="20"/>
+<wire x1="-0.508" y1="116.078" x2="-6.858" y2="116.078" width="0.2032" layer="20"/>
+<wire x1="-0.508" y1="116.078" x2="-0.508" y2="86.36" width="0.2032" layer="20"/>
+<text x="0.254" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="11.684" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="23.368" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="35.052" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="47.244" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="57.15" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="69.088" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="80.518" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="94.234" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="106.426" y="95.758" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="115.062" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="98.044" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="88.138" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="77.216" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="65.532" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="52.07" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="35.306" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="14.732" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="3.81" y="81.788" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="5.588" y="67.818" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="26.162" y="67.818" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="47.498" y="67.818" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="57.404" y="67.818" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="67.818" y="67.818" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="77.724" y="67.818" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="94.742" y="67.818" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="114.046" y="67.818" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="113.792" y="53.848" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="93.98" y="53.848" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="72.136" y="53.848" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="50.038" y="53.848" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="28.956" y="53.848" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="7.874" y="53.848" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="8.89" y="39.878" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="31.75" y="39.878" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="52.324" y="39.878" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="70.866" y="39.878" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="91.694" y="39.878" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="113.284" y="39.878" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="113.538" y="25.908" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="95.25" y="25.908" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="72.39" y="25.908" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="51.562" y="25.908" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="31.496" y="25.908" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="10.414" y="25.908" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="8.382" y="11.938" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="29.972" y="11.938" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="51.816" y="11.938" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="74.168" y="11.938" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="95.504" y="11.938" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="114.554" y="11.938" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="114.046" y="-2.032" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="94.996" y="-2.032" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="74.422" y="-2.032" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="51.562" y="-2.032" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="30.988" y="-2.032" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="10.668" y="-2.032" size="1.27" layer="20" font="vector" ratio="7">Route Out</text>
+</plain>
+<libraries>
+<library name="SparkFun">
+<packages>
+<package name="SFE-LOGO-FLAME">
+<polygon width="0.0254" layer="21">
+<vertex x="0.5462" y="1.8974"/>
+<vertex x="0.4979" y="1.905" curve="17.884178"/>
+<vertex x="0.3099" y="1.905" curve="46.327753"/>
+<vertex x="0.0712" y="1.7551" curve="35.91905"/>
+<vertex x="0.0001" y="1.5189"/>
+<vertex x="0.0001" y="0.0025"/>
+<vertex x="0.4877" y="0.5512" curve="-23.528974"/>
+<vertex x="0.6757" y="0.6909" curve="-19.885101"/>
+<vertex x="0.7519" y="0.7112"/>
+<vertex x="0.9805" y="0.7112" curve="31.19409"/>
+<vertex x="1.3717" y="0.8204" curve="24.226678"/>
+<vertex x="1.679" y="1.11" curve="41.579705"/>
+<vertex x="1.8593" y="1.844" curve="25.48189"/>
+<vertex x="1.7527" y="2.1412" curve="24.327175"/>
+<vertex x="1.5495" y="2.347"/>
+<vertex x="1.5495" y="2.2581" curve="-30.728978"/>
+<vertex x="1.5418" y="2.2301" curve="-33.047583"/>
+<vertex x="1.4733" y="2.1666" curve="-11.956766"/>
+<vertex x="1.4529" y="2.159" curve="-49.772638"/>
+<vertex x="1.2878" y="2.1895" curve="-0.938211"/>
+<vertex x="1.1964" y="2.2555" curve="-17.462115"/>
+<vertex x="1.1177" y="2.3343" curve="-18.133005"/>
+<vertex x="1.0669" y="2.4333" curve="-27.405164"/>
+<vertex x="1.0618" y="2.4994" curve="-60.325263"/>
+<vertex x="1.2015" y="2.6695" curve="-18.806378"/>
+<vertex x="1.3056" y="2.6899" curve="-3.38798"/>
+<vertex x="1.3666" y="2.6899"/>
+<vertex x="1.3665" y="2.6899"/>
+<vertex x="1.364" y="2.6924" curve="28.458071"/>
+<vertex x="1.2701" y="2.7483" curve="-13.16107"/>
+<vertex x="1.2345" y="2.7635" curve="11.36204"/>
+<vertex x="1.2116" y="2.7737" curve="17.239689"/>
+<vertex x="1.0338" y="2.8042" curve="33.13693"/>
+<vertex x="0.7849" y="2.7356" curve="15.258219"/>
+<vertex x="0.6376" y="2.6137" curve="72.107848"/>
+<vertex x="0.597" y="2.2682" curve="18.59376"/>
+<vertex x="0.8611" y="1.938" curve="-104.814891"/>
+<vertex x="0.8332" y="1.5799" curve="-28.91879"/>
+<vertex x="0.6528" y="1.5189" curve="-42.347638"/>
+<vertex x="0.4446" y="1.5824" curve="-32.991127"/>
+<vertex x="0.3887" y="1.6612" curve="-37.722834"/>
+<vertex x="0.3887" y="1.7958" curve="-35.953185"/>
+<vertex x="0.4115" y="1.8263" curve="1.480237"/>
+<vertex x="0.4954" y="1.8872" curve="-50.628124"/>
+</polygon>
+</package>
+<package name="STAND-OFF">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.302"/>
+</package>
+<package name="1X05">
+<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="9.525" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="10.795" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="1.27" x2="11.43" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="-0.635" x2="10.795" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="-1.27" x2="9.525" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="0.635" x2="11.43" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="OSHW-LOGO-S">
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-1.5X3">
+<circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
+<smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
+</package>
+</packages>
+</library>
+<library name="Testing">
+<packages>
+<package name="USB-AB-MICRO-SMD_V02_BOSS">
+<text x="-4.66" y="5.96" size="0.3048" layer="51">PCB Front</text>
+<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
+<text x="-1.27" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="5.461" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="2.784" x2="0.75" y2="4.584" layer="1"/>
+<rectangle x1="-0.75" y1="-1.25" x2="0.75" y2="1.25" layer="1"/>
+<rectangle x1="-0.75" y1="-4.584" x2="0.75" y2="-2.784" layer="1"/>
+<smd name="D+1" x="2.7" y="0" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="D-1" x="2.7" y="0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="VBUS1" x="2.7" y="1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="ID1" x="2.7" y="-0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="GND1" x="2.7" y="-1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<hole x="2.2" y="1.9" drill="0.85"/>
+<hole x="2.2" y="-1.9" drill="0.85"/>
+<rectangle x1="-0.75" y1="2.784" x2="0.75" y2="4.584" layer="31"/>
+<rectangle x1="-0.75" y1="-1.25" x2="0.75" y2="1.25" layer="31"/>
+<rectangle x1="-0.75" y1="-4.584" x2="0.75" y2="-2.784" layer="31"/>
+<wire x1="-2.15" y1="3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="3.9" x2="2.85" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="3.9" x2="-2.15" y2="3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="-3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.981959375" y1="3.99288125" x2="2" y2="3.99288125" width="0.3048" layer="21"/>
+<wire x1="2" y1="3.99288125" x2="2" y2="4" width="0.3048" layer="21"/>
+<wire x1="3" y1="4" x2="3" y2="3" width="0.3048" layer="21"/>
+<wire x1="2" y1="-4" x2="3" y2="-4" width="0.3048" layer="21"/>
+<wire x1="3" y1="-4" x2="3" y2="-3" width="0.3048" layer="21"/>
+<wire x1="-1" y1="4" x2="-2" y2="4" width="0.3048" layer="21"/>
+<wire x1="-1" y1="-4" x2="-2" y2="-4" width="0.3048" layer="21"/>
+<rectangle x1="-0.85" y1="2.684" x2="0.85" y2="4.684" layer="29"/>
+<rectangle x1="-0.85" y1="-4.684" x2="0.85" y2="-2.684" layer="29"/>
+<rectangle x1="-0.85" y1="-1.35" x2="0.85" y2="1.35" layer="29"/>
+<wire x1="1.89991875" y1="1.6002" x2="2.499359375" y2="1.6002" width="0" layer="21"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="9mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="8mil"/>
+<param name="msDrill" value="20mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="12mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="12mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="10mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="10mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="20mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="|"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="-"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+</autorouter>
+<elements>
+<element name="JP2" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="8.382" y="4.318" smashed="yes" rot="MR0"/>
+<element name="JP3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="17.78" y="2.54" smashed="yes"/>
+<element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="2.54" smashed="yes"/>
+<element name="JP5" library="SparkFun" package="1X05" value="" x="15.24" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.5862" y="8.3312" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="13.335" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="5.461" smashed="yes" rot="MR0"/>
+<element name="U$4" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="10.16" y="1.651" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="0.381" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="0.381" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP1" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="29.21" y="4.318" smashed="yes" rot="MR0"/>
+<element name="JP6" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.608" y="2.54" smashed="yes"/>
+<element name="JP7" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="23.368" y="2.54" smashed="yes"/>
+<element name="JP8" library="SparkFun" package="1X05" value="" x="36.068" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.4142" y="8.3312" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="37.338" y="13.335" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.528" y="5.461" smashed="yes" rot="MR0"/>
+<element name="U$2" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="30.988" y="1.651" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.019" y="0.381" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.527" y="0.381" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP9" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="50.038" y="4.318" smashed="yes" rot="MR0"/>
+<element name="JP10" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="59.436" y="2.54" smashed="yes"/>
+<element name="JP11" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="44.196" y="2.54" smashed="yes"/>
+<element name="JP12" library="SparkFun" package="1X05" value="" x="56.896" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.2422" y="8.3312" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="13.335" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$5" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="54.356" y="5.461" smashed="yes" rot="MR0"/>
+<element name="U$6" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="51.816" y="1.651" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.847" y="0.381" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="0.381" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP13" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="70.866" y="4.318" smashed="yes" rot="MR0"/>
+<element name="JP14" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.264" y="2.54" smashed="yes"/>
+<element name="JP15" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="65.024" y="2.54" smashed="yes"/>
+<element name="JP16" library="SparkFun" package="1X05" value="" x="77.724" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.0702" y="8.3312" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.994" y="13.335" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$7" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="75.184" y="5.461" smashed="yes" rot="MR0"/>
+<element name="U$8" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="72.644" y="1.651" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.675" y="0.381" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.183" y="0.381" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP17" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="91.694" y="4.318" smashed="yes" rot="MR0"/>
+<element name="JP18" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="101.092" y="2.54" smashed="yes"/>
+<element name="JP19" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="85.852" y="2.54" smashed="yes"/>
+<element name="JP20" library="SparkFun" package="1X05" value="" x="98.552" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.8982" y="8.3312" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="99.822" y="13.335" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$9" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.012" y="5.461" smashed="yes" rot="MR0"/>
+<element name="U$10" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="93.472" y="1.651" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.503" y="0.381" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.011" y="0.381" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP21" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="112.522" y="4.318" smashed="yes" rot="MR0"/>
+<element name="JP22" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="121.92" y="2.54" smashed="yes"/>
+<element name="JP23" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="106.68" y="2.54" smashed="yes"/>
+<element name="JP24" library="SparkFun" package="1X05" value="" x="119.38" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.7262" y="8.3312" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="120.65" y="13.335" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$11" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.84" y="5.461" smashed="yes" rot="MR0"/>
+<element name="U$12" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="114.3" y="1.651" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.331" y="0.381" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.839" y="0.381" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP25" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="8.382" y="18.288" smashed="yes" rot="MR0"/>
+<element name="JP26" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="17.78" y="16.51" smashed="yes"/>
+<element name="JP27" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="16.51" smashed="yes"/>
+<element name="JP28" library="SparkFun" package="1X05" value="" x="15.24" y="24.13" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.5862" y="22.3012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="27.305" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$13" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="19.431" smashed="yes" rot="MR0"/>
+<element name="U$14" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="10.16" y="15.621" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="14.351" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="14.351" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP29" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="29.21" y="18.288" smashed="yes" rot="MR0"/>
+<element name="JP30" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.608" y="16.51" smashed="yes"/>
+<element name="JP31" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="23.368" y="16.51" smashed="yes"/>
+<element name="JP32" library="SparkFun" package="1X05" value="" x="36.068" y="24.13" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.4142" y="22.3012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="37.338" y="27.305" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$15" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.528" y="19.431" smashed="yes" rot="MR0"/>
+<element name="U$16" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="30.988" y="15.621" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.019" y="14.351" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.527" y="14.351" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP33" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="50.038" y="18.288" smashed="yes" rot="MR0"/>
+<element name="JP34" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="59.436" y="16.51" smashed="yes"/>
+<element name="JP35" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="44.196" y="16.51" smashed="yes"/>
+<element name="JP36" library="SparkFun" package="1X05" value="" x="56.896" y="24.13" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.2422" y="22.3012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="27.305" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$17" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="54.356" y="19.431" smashed="yes" rot="MR0"/>
+<element name="U$18" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="51.816" y="15.621" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.847" y="14.351" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="14.351" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP37" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="70.866" y="18.288" smashed="yes" rot="MR0"/>
+<element name="JP38" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.264" y="16.51" smashed="yes"/>
+<element name="JP39" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="65.024" y="16.51" smashed="yes"/>
+<element name="JP40" library="SparkFun" package="1X05" value="" x="77.724" y="24.13" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.0702" y="22.3012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.994" y="27.305" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$19" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="75.184" y="19.431" smashed="yes" rot="MR0"/>
+<element name="U$20" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="72.644" y="15.621" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.675" y="14.351" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.183" y="14.351" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP41" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="91.694" y="18.288" smashed="yes" rot="MR0"/>
+<element name="JP42" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="101.092" y="16.51" smashed="yes"/>
+<element name="JP43" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="85.852" y="16.51" smashed="yes"/>
+<element name="JP44" library="SparkFun" package="1X05" value="" x="98.552" y="24.13" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.8982" y="22.3012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="99.822" y="27.305" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$21" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.012" y="19.431" smashed="yes" rot="MR0"/>
+<element name="U$22" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="93.472" y="15.621" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.503" y="14.351" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.011" y="14.351" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP45" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="112.522" y="18.288" smashed="yes" rot="MR0"/>
+<element name="JP46" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="121.92" y="16.51" smashed="yes"/>
+<element name="JP47" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="106.68" y="16.51" smashed="yes"/>
+<element name="JP48" library="SparkFun" package="1X05" value="" x="119.38" y="24.13" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.7262" y="22.3012" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="120.65" y="27.305" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$23" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.84" y="19.431" smashed="yes" rot="MR0"/>
+<element name="U$24" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="114.3" y="15.621" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.331" y="14.351" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.839" y="14.351" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP49" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="8.382" y="32.258" smashed="yes" rot="MR0"/>
+<element name="JP50" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="17.78" y="30.48" smashed="yes"/>
+<element name="JP51" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="30.48" smashed="yes"/>
+<element name="JP52" library="SparkFun" package="1X05" value="" x="15.24" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.5862" y="36.2712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="41.275" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$25" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="33.401" smashed="yes" rot="MR0"/>
+<element name="U$26" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="10.16" y="29.591" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="28.321" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="28.321" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP53" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="29.21" y="32.258" smashed="yes" rot="MR0"/>
+<element name="JP54" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.608" y="30.48" smashed="yes"/>
+<element name="JP55" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="23.368" y="30.48" smashed="yes"/>
+<element name="JP56" library="SparkFun" package="1X05" value="" x="36.068" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.4142" y="36.2712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="37.338" y="41.275" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$27" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.528" y="33.401" smashed="yes" rot="MR0"/>
+<element name="U$28" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="30.988" y="29.591" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.019" y="28.321" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.527" y="28.321" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP57" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="50.038" y="32.258" smashed="yes" rot="MR0"/>
+<element name="JP58" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="59.436" y="30.48" smashed="yes"/>
+<element name="JP59" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="44.196" y="30.48" smashed="yes"/>
+<element name="JP60" library="SparkFun" package="1X05" value="" x="56.896" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.2422" y="36.2712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="41.275" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$29" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="54.356" y="33.401" smashed="yes" rot="MR0"/>
+<element name="U$30" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="51.816" y="29.591" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.847" y="28.321" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="28.321" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP61" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="70.866" y="32.258" smashed="yes" rot="MR0"/>
+<element name="JP62" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.264" y="30.48" smashed="yes"/>
+<element name="JP63" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="65.024" y="30.48" smashed="yes"/>
+<element name="JP64" library="SparkFun" package="1X05" value="" x="77.724" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.0702" y="36.2712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.994" y="41.275" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$31" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="75.184" y="33.401" smashed="yes" rot="MR0"/>
+<element name="U$32" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="72.644" y="29.591" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.675" y="28.321" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.183" y="28.321" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP65" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="91.694" y="32.258" smashed="yes" rot="MR0"/>
+<element name="JP66" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="101.092" y="30.48" smashed="yes"/>
+<element name="JP67" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="85.852" y="30.48" smashed="yes"/>
+<element name="JP68" library="SparkFun" package="1X05" value="" x="98.552" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.8982" y="36.2712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="99.822" y="41.275" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$33" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.012" y="33.401" smashed="yes" rot="MR0"/>
+<element name="U$34" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="93.472" y="29.591" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.503" y="28.321" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.011" y="28.321" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP69" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="112.522" y="32.258" smashed="yes" rot="MR0"/>
+<element name="JP70" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="121.92" y="30.48" smashed="yes"/>
+<element name="JP71" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="106.68" y="30.48" smashed="yes"/>
+<element name="JP72" library="SparkFun" package="1X05" value="" x="119.38" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.7262" y="36.2712" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="120.65" y="41.275" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$35" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.84" y="33.401" smashed="yes" rot="MR0"/>
+<element name="U$36" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="114.3" y="29.591" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.331" y="28.321" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.839" y="28.321" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP73" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="8.382" y="46.228" smashed="yes" rot="MR0"/>
+<element name="JP74" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="17.78" y="44.45" smashed="yes"/>
+<element name="JP75" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="44.45" smashed="yes"/>
+<element name="JP76" library="SparkFun" package="1X05" value="" x="15.24" y="52.07" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.5862" y="50.2412" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="55.245" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$37" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="47.371" smashed="yes" rot="MR0"/>
+<element name="U$38" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="10.16" y="43.561" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="42.291" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="42.291" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP77" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="29.21" y="46.228" smashed="yes" rot="MR0"/>
+<element name="JP78" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.608" y="44.45" smashed="yes"/>
+<element name="JP79" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="23.368" y="44.45" smashed="yes"/>
+<element name="JP80" library="SparkFun" package="1X05" value="" x="36.068" y="52.07" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.4142" y="50.2412" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="37.338" y="55.245" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$39" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.528" y="47.371" smashed="yes" rot="MR0"/>
+<element name="U$40" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="30.988" y="43.561" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.019" y="42.291" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.527" y="42.291" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP81" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="50.038" y="46.228" smashed="yes" rot="MR0"/>
+<element name="JP82" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="59.436" y="44.45" smashed="yes"/>
+<element name="JP83" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="44.196" y="44.45" smashed="yes"/>
+<element name="JP84" library="SparkFun" package="1X05" value="" x="56.896" y="52.07" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.2422" y="50.2412" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="55.245" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$41" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="54.356" y="47.371" smashed="yes" rot="MR0"/>
+<element name="U$42" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="51.816" y="43.561" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.847" y="42.291" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="42.291" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP85" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="70.866" y="46.228" smashed="yes" rot="MR0"/>
+<element name="JP86" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.264" y="44.45" smashed="yes"/>
+<element name="JP87" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="65.024" y="44.45" smashed="yes"/>
+<element name="JP88" library="SparkFun" package="1X05" value="" x="77.724" y="52.07" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.0702" y="50.2412" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.994" y="55.245" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$43" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="75.184" y="47.371" smashed="yes" rot="MR0"/>
+<element name="U$44" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="72.644" y="43.561" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.675" y="42.291" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.183" y="42.291" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP89" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="91.694" y="46.228" smashed="yes" rot="MR0"/>
+<element name="JP90" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="101.092" y="44.45" smashed="yes"/>
+<element name="JP91" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="85.852" y="44.45" smashed="yes"/>
+<element name="JP92" library="SparkFun" package="1X05" value="" x="98.552" y="52.07" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.8982" y="50.2412" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="99.822" y="55.245" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$45" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.012" y="47.371" smashed="yes" rot="MR0"/>
+<element name="U$46" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="93.472" y="43.561" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.503" y="42.291" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.011" y="42.291" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP93" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="112.522" y="46.228" smashed="yes" rot="MR0"/>
+<element name="JP94" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="121.92" y="44.45" smashed="yes"/>
+<element name="JP95" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="106.68" y="44.45" smashed="yes"/>
+<element name="JP96" library="SparkFun" package="1X05" value="" x="119.38" y="52.07" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.7262" y="50.2412" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="120.65" y="55.245" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$47" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.84" y="47.371" smashed="yes" rot="MR0"/>
+<element name="U$48" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="114.3" y="43.561" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.331" y="42.291" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.839" y="42.291" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP97" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="8.382" y="60.198" smashed="yes" rot="MR0"/>
+<element name="JP98" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="17.78" y="58.42" smashed="yes"/>
+<element name="JP99" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="58.42" smashed="yes"/>
+<element name="JP100" library="SparkFun" package="1X05" value="" x="15.24" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.5862" y="64.2112" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="69.215" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$49" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$50" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="10.16" y="57.531" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="56.261" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="56.261" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP101" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="29.21" y="60.198" smashed="yes" rot="MR0"/>
+<element name="JP102" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.608" y="58.42" smashed="yes"/>
+<element name="JP103" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="23.368" y="58.42" smashed="yes"/>
+<element name="JP104" library="SparkFun" package="1X05" value="" x="36.068" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.4142" y="64.2112" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="37.338" y="69.215" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$51" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.528" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$52" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="30.988" y="57.531" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.019" y="56.261" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.527" y="56.261" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP105" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="50.038" y="60.198" smashed="yes" rot="MR0"/>
+<element name="JP106" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="59.436" y="58.42" smashed="yes"/>
+<element name="JP107" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="44.196" y="58.42" smashed="yes"/>
+<element name="JP108" library="SparkFun" package="1X05" value="" x="56.896" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.2422" y="64.2112" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="69.215" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$53" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="54.356" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$54" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="51.816" y="57.531" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.847" y="56.261" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="56.261" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP109" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="70.866" y="60.198" smashed="yes" rot="MR0"/>
+<element name="JP110" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.264" y="58.42" smashed="yes"/>
+<element name="JP111" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="65.024" y="58.42" smashed="yes"/>
+<element name="JP112" library="SparkFun" package="1X05" value="" x="77.724" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.0702" y="64.2112" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.994" y="69.215" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$55" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="75.184" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$56" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="72.644" y="57.531" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.675" y="56.261" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.183" y="56.261" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP113" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="91.694" y="60.198" smashed="yes" rot="MR0"/>
+<element name="JP114" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="101.092" y="58.42" smashed="yes"/>
+<element name="JP115" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="85.852" y="58.42" smashed="yes"/>
+<element name="JP116" library="SparkFun" package="1X05" value="" x="98.552" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.8982" y="64.2112" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="99.822" y="69.215" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$57" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.012" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$58" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="93.472" y="57.531" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.503" y="56.261" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.011" y="56.261" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP117" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="112.522" y="60.198" smashed="yes" rot="MR0"/>
+<element name="JP118" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="121.92" y="58.42" smashed="yes"/>
+<element name="JP119" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="106.68" y="58.42" smashed="yes"/>
+<element name="JP120" library="SparkFun" package="1X05" value="" x="119.38" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.7262" y="64.2112" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="120.65" y="69.215" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$59" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.84" y="61.341" smashed="yes" rot="MR0"/>
+<element name="U$60" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="114.3" y="57.531" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.331" y="56.261" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.839" y="56.261" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP121" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="8.382" y="74.168" smashed="yes" rot="MR0"/>
+<element name="JP122" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="17.78" y="72.39" smashed="yes"/>
+<element name="JP123" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="72.39" smashed="yes"/>
+<element name="JP124" library="SparkFun" package="1X05" value="" x="15.24" y="80.01" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.5862" y="78.1812" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="83.185" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$61" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="75.311" smashed="yes" rot="MR0"/>
+<element name="U$62" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="10.16" y="71.501" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="70.231" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="70.231" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP125" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="29.21" y="74.168" smashed="yes" rot="MR0"/>
+<element name="JP126" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.608" y="72.39" smashed="yes"/>
+<element name="JP127" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="23.368" y="72.39" smashed="yes"/>
+<element name="JP128" library="SparkFun" package="1X05" value="" x="36.068" y="80.01" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.4142" y="78.1812" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="37.338" y="83.185" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$63" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.528" y="75.311" smashed="yes" rot="MR0"/>
+<element name="U$64" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="30.988" y="71.501" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.019" y="70.231" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.527" y="70.231" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP129" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="50.038" y="74.168" smashed="yes" rot="MR0"/>
+<element name="JP130" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="59.436" y="72.39" smashed="yes"/>
+<element name="JP131" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="44.196" y="72.39" smashed="yes"/>
+<element name="JP132" library="SparkFun" package="1X05" value="" x="56.896" y="80.01" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.2422" y="78.1812" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="83.185" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$65" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="54.356" y="75.311" smashed="yes" rot="MR0"/>
+<element name="U$66" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="51.816" y="71.501" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.847" y="70.231" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="70.231" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP133" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="70.866" y="74.168" smashed="yes" rot="MR0"/>
+<element name="JP134" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.264" y="72.39" smashed="yes"/>
+<element name="JP135" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="65.024" y="72.39" smashed="yes"/>
+<element name="JP136" library="SparkFun" package="1X05" value="" x="77.724" y="80.01" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.0702" y="78.1812" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.994" y="83.185" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$67" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="75.184" y="75.311" smashed="yes" rot="MR0"/>
+<element name="U$68" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="72.644" y="71.501" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.675" y="70.231" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.183" y="70.231" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP137" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="91.694" y="74.168" smashed="yes" rot="MR0"/>
+<element name="JP138" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="101.092" y="72.39" smashed="yes"/>
+<element name="JP139" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="85.852" y="72.39" smashed="yes"/>
+<element name="JP140" library="SparkFun" package="1X05" value="" x="98.552" y="80.01" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.8982" y="78.1812" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="99.822" y="83.185" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$69" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.012" y="75.311" smashed="yes" rot="MR0"/>
+<element name="U$70" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="93.472" y="71.501" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.503" y="70.231" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.011" y="70.231" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP141" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="112.522" y="74.168" smashed="yes" rot="MR0"/>
+<element name="JP142" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="121.92" y="72.39" smashed="yes"/>
+<element name="JP143" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="106.68" y="72.39" smashed="yes"/>
+<element name="JP144" library="SparkFun" package="1X05" value="" x="119.38" y="80.01" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.7262" y="78.1812" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="120.65" y="83.185" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$71" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.84" y="75.311" smashed="yes" rot="MR0"/>
+<element name="U$72" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="114.3" y="71.501" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.331" y="70.231" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.839" y="70.231" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP145" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="8.382" y="88.138" smashed="yes" rot="MR0"/>
+<element name="JP146" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="17.78" y="86.36" smashed="yes"/>
+<element name="JP147" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="86.36" smashed="yes"/>
+<element name="JP148" library="SparkFun" package="1X05" value="" x="15.24" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.5862" y="92.1512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="97.155" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$73" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="89.281" smashed="yes" rot="MR0"/>
+<element name="U$74" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="10.16" y="85.471" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="84.201" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="84.201" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP149" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="29.21" y="88.138" smashed="yes" rot="MR0"/>
+<element name="JP150" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.608" y="86.36" smashed="yes"/>
+<element name="JP151" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="23.368" y="86.36" smashed="yes"/>
+<element name="JP152" library="SparkFun" package="1X05" value="" x="36.068" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.4142" y="92.1512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="37.338" y="97.155" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$75" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.528" y="89.281" smashed="yes" rot="MR0"/>
+<element name="U$76" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="30.988" y="85.471" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.019" y="84.201" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.527" y="84.201" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP153" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="50.038" y="88.138" smashed="yes" rot="MR0"/>
+<element name="JP154" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="59.436" y="86.36" smashed="yes"/>
+<element name="JP155" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="44.196" y="86.36" smashed="yes"/>
+<element name="JP156" library="SparkFun" package="1X05" value="" x="56.896" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.2422" y="92.1512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="97.155" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$77" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="54.356" y="89.281" smashed="yes" rot="MR0"/>
+<element name="U$78" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="51.816" y="85.471" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.847" y="84.201" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="84.201" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP157" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="70.866" y="88.138" smashed="yes" rot="MR0"/>
+<element name="JP158" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.264" y="86.36" smashed="yes"/>
+<element name="JP159" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="65.024" y="86.36" smashed="yes"/>
+<element name="JP160" library="SparkFun" package="1X05" value="" x="77.724" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.0702" y="92.1512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.994" y="97.155" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$79" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="75.184" y="89.281" smashed="yes" rot="MR0"/>
+<element name="U$80" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="72.644" y="85.471" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.675" y="84.201" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.183" y="84.201" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP161" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="91.694" y="88.138" smashed="yes" rot="MR0"/>
+<element name="JP162" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="101.092" y="86.36" smashed="yes"/>
+<element name="JP163" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="85.852" y="86.36" smashed="yes"/>
+<element name="JP164" library="SparkFun" package="1X05" value="" x="98.552" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.8982" y="92.1512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="99.822" y="97.155" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$81" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.012" y="89.281" smashed="yes" rot="MR0"/>
+<element name="U$82" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="93.472" y="85.471" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.503" y="84.201" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.011" y="84.201" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP165" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="112.522" y="88.138" smashed="yes" rot="MR0"/>
+<element name="JP166" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="121.92" y="86.36" smashed="yes"/>
+<element name="JP167" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="106.68" y="86.36" smashed="yes"/>
+<element name="JP168" library="SparkFun" package="1X05" value="" x="119.38" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.7262" y="92.1512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="120.65" y="97.155" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$83" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.84" y="89.281" smashed="yes" rot="MR0"/>
+<element name="U$84" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="114.3" y="85.471" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.331" y="84.201" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.839" y="84.201" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP169" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="8.382" y="102.108" smashed="yes" rot="MR0"/>
+<element name="JP170" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="17.78" y="100.33" smashed="yes"/>
+<element name="JP171" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="100.33" smashed="yes"/>
+<element name="JP172" library="SparkFun" package="1X05" value="" x="15.24" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.5862" y="106.1212" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="111.125" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$85" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="103.251" smashed="yes" rot="MR0"/>
+<element name="U$86" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="10.16" y="99.441" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.191" y="98.171" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="4.699" y="98.171" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP173" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="29.21" y="102.108" smashed="yes" rot="MR0"/>
+<element name="JP174" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="38.608" y="100.33" smashed="yes"/>
+<element name="JP175" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="23.368" y="100.33" smashed="yes"/>
+<element name="JP176" library="SparkFun" package="1X05" value="" x="36.068" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.4142" y="106.1212" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="37.338" y="111.125" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$87" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="33.528" y="103.251" smashed="yes" rot="MR0"/>
+<element name="U$88" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="30.988" y="99.441" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.019" y="98.171" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.527" y="98.171" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP177" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="50.038" y="102.108" smashed="yes" rot="MR0"/>
+<element name="JP178" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="59.436" y="100.33" smashed="yes"/>
+<element name="JP179" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="44.196" y="100.33" smashed="yes"/>
+<element name="JP180" library="SparkFun" package="1X05" value="" x="56.896" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.2422" y="106.1212" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="111.125" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$89" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="54.356" y="103.251" smashed="yes" rot="MR0"/>
+<element name="U$90" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="51.816" y="99.441" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.847" y="98.171" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="98.171" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP181" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="70.866" y="102.108" smashed="yes" rot="MR0"/>
+<element name="JP182" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.264" y="100.33" smashed="yes"/>
+<element name="JP183" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="65.024" y="100.33" smashed="yes"/>
+<element name="JP184" library="SparkFun" package="1X05" value="" x="77.724" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.0702" y="106.1212" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="78.994" y="111.125" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$91" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="75.184" y="103.251" smashed="yes" rot="MR0"/>
+<element name="U$92" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="72.644" y="99.441" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.675" y="98.171" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="67.183" y="98.171" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP185" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="91.694" y="102.108" smashed="yes" rot="MR0"/>
+<element name="JP186" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="101.092" y="100.33" smashed="yes"/>
+<element name="JP187" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="85.852" y="100.33" smashed="yes"/>
+<element name="JP188" library="SparkFun" package="1X05" value="" x="98.552" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.8982" y="106.1212" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="99.822" y="111.125" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$93" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="96.012" y="103.251" smashed="yes" rot="MR0"/>
+<element name="U$94" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="93.472" y="99.441" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.503" y="98.171" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="88.011" y="98.171" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="JP189" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="112.522" y="102.108" smashed="yes" rot="MR0"/>
+<element name="JP190" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="121.92" y="100.33" smashed="yes"/>
+<element name="JP191" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="106.68" y="100.33" smashed="yes"/>
+<element name="JP192" library="SparkFun" package="1X05" value="" x="119.38" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.7262" y="106.1212" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="120.65" y="111.125" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$95" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.84" y="103.251" smashed="yes" rot="MR0"/>
+<element name="U$96" library="Testing" package="USB-AB-MICRO-SMD_V02_BOSS" value="" x="114.3" y="99.441" smashed="yes" rot="R90">
+<attribute name="NAME" x="108.331" y="98.171" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="108.839" y="98.171" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="127" y="3.81"/>
+<element name="E$5" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="126.746" y="105.41" rot="R180"/>
+<element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1.5X3" value="" x="-2.286" y="3.81"/>
+</elements>
+<signals>
+<signal name="GND">
+<contactref element="JP5" pad="1"/>
+<wire x1="11.46" y1="6.38" x2="15.24" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$4" pad="GND1"/>
+<wire x1="11.46" y1="6.38" x2="11.46" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D+">
+<contactref element="JP5" pad="3"/>
+<contactref element="U$4" pad="D+1"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D-">
+<contactref element="JP5" pad="4"/>
+<wire x1="9.51" y1="8.27" x2="7.62" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$4" pad="D-1"/>
+<wire x1="9.51" y1="8.27" x2="9.51" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS">
+<contactref element="JP5" pad="5"/>
+<wire x1="8.86" y1="6.38" x2="5.08" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$4" pad="VBUS1"/>
+<wire x1="8.86" y1="6.38" x2="8.86" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="ID">
+<contactref element="JP5" pad="2"/>
+<wire x1="10.81" y1="8.27" x2="12.7" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$4" pad="ID1"/>
+<wire x1="10.81" y1="8.27" x2="10.81" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="GND1">
+<contactref element="JP8" pad="1"/>
+<wire x1="32.288" y1="6.38" x2="36.068" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$2" pad="GND1"/>
+<wire x1="32.288" y1="6.38" x2="32.288" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D+1">
+<contactref element="JP8" pad="3"/>
+<contactref element="U$2" pad="D+1"/>
+<wire x1="30.988" y1="10.16" x2="30.988" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D-1">
+<contactref element="JP8" pad="4"/>
+<wire x1="30.338" y1="8.27" x2="28.448" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$2" pad="D-1"/>
+<wire x1="30.338" y1="8.27" x2="30.338" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS1">
+<contactref element="JP8" pad="5"/>
+<wire x1="29.688" y1="6.38" x2="25.908" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$2" pad="VBUS1"/>
+<wire x1="29.688" y1="6.38" x2="29.688" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="ID1">
+<contactref element="JP8" pad="2"/>
+<wire x1="31.638" y1="8.27" x2="33.528" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$2" pad="ID1"/>
+<wire x1="31.638" y1="8.27" x2="31.638" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="GND2">
+<contactref element="JP12" pad="1"/>
+<wire x1="53.116" y1="6.38" x2="56.896" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$6" pad="GND1"/>
+<wire x1="53.116" y1="6.38" x2="53.116" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D+2">
+<contactref element="JP12" pad="3"/>
+<contactref element="U$6" pad="D+1"/>
+<wire x1="51.816" y1="10.16" x2="51.816" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D-2">
+<contactref element="JP12" pad="4"/>
+<wire x1="51.166" y1="8.27" x2="49.276" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$6" pad="D-1"/>
+<wire x1="51.166" y1="8.27" x2="51.166" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS2">
+<contactref element="JP12" pad="5"/>
+<wire x1="50.516" y1="6.38" x2="46.736" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$6" pad="VBUS1"/>
+<wire x1="50.516" y1="6.38" x2="50.516" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="ID2">
+<contactref element="JP12" pad="2"/>
+<wire x1="52.466" y1="8.27" x2="54.356" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$6" pad="ID1"/>
+<wire x1="52.466" y1="8.27" x2="52.466" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="GND3">
+<contactref element="JP16" pad="1"/>
+<wire x1="73.944" y1="6.38" x2="77.724" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$8" pad="GND1"/>
+<wire x1="73.944" y1="6.38" x2="73.944" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D+3">
+<contactref element="JP16" pad="3"/>
+<contactref element="U$8" pad="D+1"/>
+<wire x1="72.644" y1="10.16" x2="72.644" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D-3">
+<contactref element="JP16" pad="4"/>
+<wire x1="71.994" y1="8.27" x2="70.104" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$8" pad="D-1"/>
+<wire x1="71.994" y1="8.27" x2="71.994" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS3">
+<contactref element="JP16" pad="5"/>
+<wire x1="71.344" y1="6.38" x2="67.564" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$8" pad="VBUS1"/>
+<wire x1="71.344" y1="6.38" x2="71.344" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="ID3">
+<contactref element="JP16" pad="2"/>
+<wire x1="73.294" y1="8.27" x2="75.184" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$8" pad="ID1"/>
+<wire x1="73.294" y1="8.27" x2="73.294" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="GND4">
+<contactref element="JP20" pad="1"/>
+<wire x1="94.772" y1="6.38" x2="98.552" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$10" pad="GND1"/>
+<wire x1="94.772" y1="6.38" x2="94.772" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D+4">
+<contactref element="JP20" pad="3"/>
+<contactref element="U$10" pad="D+1"/>
+<wire x1="93.472" y1="10.16" x2="93.472" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D-4">
+<contactref element="JP20" pad="4"/>
+<wire x1="92.822" y1="8.27" x2="90.932" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$10" pad="D-1"/>
+<wire x1="92.822" y1="8.27" x2="92.822" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS4">
+<contactref element="JP20" pad="5"/>
+<wire x1="92.172" y1="6.38" x2="88.392" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$10" pad="VBUS1"/>
+<wire x1="92.172" y1="6.38" x2="92.172" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="ID4">
+<contactref element="JP20" pad="2"/>
+<wire x1="94.122" y1="8.27" x2="96.012" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$10" pad="ID1"/>
+<wire x1="94.122" y1="8.27" x2="94.122" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="GND5">
+<contactref element="JP24" pad="1"/>
+<wire x1="115.6" y1="6.38" x2="119.38" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$12" pad="GND1"/>
+<wire x1="115.6" y1="6.38" x2="115.6" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D+5">
+<contactref element="JP24" pad="3"/>
+<contactref element="U$12" pad="D+1"/>
+<wire x1="114.3" y1="10.16" x2="114.3" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="D-5">
+<contactref element="JP24" pad="4"/>
+<wire x1="113.65" y1="8.27" x2="111.76" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$12" pad="D-1"/>
+<wire x1="113.65" y1="8.27" x2="113.65" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS5">
+<contactref element="JP24" pad="5"/>
+<wire x1="113" y1="6.38" x2="109.22" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$12" pad="VBUS1"/>
+<wire x1="113" y1="6.38" x2="113" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="ID5">
+<contactref element="JP24" pad="2"/>
+<wire x1="114.95" y1="8.27" x2="116.84" y2="10.16" width="0.254" layer="1"/>
+<contactref element="U$12" pad="ID1"/>
+<wire x1="114.95" y1="8.27" x2="114.95" y2="4.351" width="0.254" layer="1"/>
+</signal>
+<signal name="GND6">
+<contactref element="JP28" pad="1"/>
+<wire x1="11.46" y1="20.35" x2="15.24" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$14" pad="GND1"/>
+<wire x1="11.46" y1="20.35" x2="11.46" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D+6">
+<contactref element="JP28" pad="3"/>
+<contactref element="U$14" pad="D+1"/>
+<wire x1="10.16" y1="24.13" x2="10.16" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D-6">
+<contactref element="JP28" pad="4"/>
+<wire x1="9.51" y1="22.24" x2="7.62" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$14" pad="D-1"/>
+<wire x1="9.51" y1="22.24" x2="9.51" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS6">
+<contactref element="JP28" pad="5"/>
+<wire x1="8.86" y1="20.35" x2="5.08" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$14" pad="VBUS1"/>
+<wire x1="8.86" y1="20.35" x2="8.86" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="ID6">
+<contactref element="JP28" pad="2"/>
+<wire x1="10.81" y1="22.24" x2="12.7" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$14" pad="ID1"/>
+<wire x1="10.81" y1="22.24" x2="10.81" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="GND7">
+<contactref element="JP32" pad="1"/>
+<wire x1="32.288" y1="20.35" x2="36.068" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$16" pad="GND1"/>
+<wire x1="32.288" y1="20.35" x2="32.288" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D+7">
+<contactref element="JP32" pad="3"/>
+<contactref element="U$16" pad="D+1"/>
+<wire x1="30.988" y1="24.13" x2="30.988" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D-7">
+<contactref element="JP32" pad="4"/>
+<wire x1="30.338" y1="22.24" x2="28.448" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$16" pad="D-1"/>
+<wire x1="30.338" y1="22.24" x2="30.338" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS7">
+<contactref element="JP32" pad="5"/>
+<wire x1="29.688" y1="20.35" x2="25.908" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$16" pad="VBUS1"/>
+<wire x1="29.688" y1="20.35" x2="29.688" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="ID7">
+<contactref element="JP32" pad="2"/>
+<wire x1="31.638" y1="22.24" x2="33.528" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$16" pad="ID1"/>
+<wire x1="31.638" y1="22.24" x2="31.638" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="GND8">
+<contactref element="JP36" pad="1"/>
+<wire x1="53.116" y1="20.35" x2="56.896" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$18" pad="GND1"/>
+<wire x1="53.116" y1="20.35" x2="53.116" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D+8">
+<contactref element="JP36" pad="3"/>
+<contactref element="U$18" pad="D+1"/>
+<wire x1="51.816" y1="24.13" x2="51.816" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D-8">
+<contactref element="JP36" pad="4"/>
+<wire x1="51.166" y1="22.24" x2="49.276" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$18" pad="D-1"/>
+<wire x1="51.166" y1="22.24" x2="51.166" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS8">
+<contactref element="JP36" pad="5"/>
+<wire x1="50.516" y1="20.35" x2="46.736" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$18" pad="VBUS1"/>
+<wire x1="50.516" y1="20.35" x2="50.516" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="ID8">
+<contactref element="JP36" pad="2"/>
+<wire x1="52.466" y1="22.24" x2="54.356" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$18" pad="ID1"/>
+<wire x1="52.466" y1="22.24" x2="52.466" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="GND9">
+<contactref element="JP40" pad="1"/>
+<wire x1="73.944" y1="20.35" x2="77.724" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$20" pad="GND1"/>
+<wire x1="73.944" y1="20.35" x2="73.944" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D+9">
+<contactref element="JP40" pad="3"/>
+<contactref element="U$20" pad="D+1"/>
+<wire x1="72.644" y1="24.13" x2="72.644" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D-9">
+<contactref element="JP40" pad="4"/>
+<wire x1="71.994" y1="22.24" x2="70.104" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$20" pad="D-1"/>
+<wire x1="71.994" y1="22.24" x2="71.994" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS9">
+<contactref element="JP40" pad="5"/>
+<wire x1="71.344" y1="20.35" x2="67.564" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$20" pad="VBUS1"/>
+<wire x1="71.344" y1="20.35" x2="71.344" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="ID9">
+<contactref element="JP40" pad="2"/>
+<wire x1="73.294" y1="22.24" x2="75.184" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$20" pad="ID1"/>
+<wire x1="73.294" y1="22.24" x2="73.294" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="GND10">
+<contactref element="JP44" pad="1"/>
+<wire x1="94.772" y1="20.35" x2="98.552" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$22" pad="GND1"/>
+<wire x1="94.772" y1="20.35" x2="94.772" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D+10">
+<contactref element="JP44" pad="3"/>
+<contactref element="U$22" pad="D+1"/>
+<wire x1="93.472" y1="24.13" x2="93.472" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D-10">
+<contactref element="JP44" pad="4"/>
+<wire x1="92.822" y1="22.24" x2="90.932" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$22" pad="D-1"/>
+<wire x1="92.822" y1="22.24" x2="92.822" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS10">
+<contactref element="JP44" pad="5"/>
+<wire x1="92.172" y1="20.35" x2="88.392" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$22" pad="VBUS1"/>
+<wire x1="92.172" y1="20.35" x2="92.172" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="ID10">
+<contactref element="JP44" pad="2"/>
+<wire x1="94.122" y1="22.24" x2="96.012" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$22" pad="ID1"/>
+<wire x1="94.122" y1="22.24" x2="94.122" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="GND11">
+<contactref element="JP48" pad="1"/>
+<wire x1="115.6" y1="20.35" x2="119.38" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$24" pad="GND1"/>
+<wire x1="115.6" y1="20.35" x2="115.6" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D+11">
+<contactref element="JP48" pad="3"/>
+<contactref element="U$24" pad="D+1"/>
+<wire x1="114.3" y1="24.13" x2="114.3" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="D-11">
+<contactref element="JP48" pad="4"/>
+<wire x1="113.65" y1="22.24" x2="111.76" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$24" pad="D-1"/>
+<wire x1="113.65" y1="22.24" x2="113.65" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS11">
+<contactref element="JP48" pad="5"/>
+<wire x1="113" y1="20.35" x2="109.22" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$24" pad="VBUS1"/>
+<wire x1="113" y1="20.35" x2="113" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="ID11">
+<contactref element="JP48" pad="2"/>
+<wire x1="114.95" y1="22.24" x2="116.84" y2="24.13" width="0.254" layer="1"/>
+<contactref element="U$24" pad="ID1"/>
+<wire x1="114.95" y1="22.24" x2="114.95" y2="18.321" width="0.254" layer="1"/>
+</signal>
+<signal name="GND12">
+<contactref element="JP52" pad="1"/>
+<wire x1="11.46" y1="34.32" x2="15.24" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$26" pad="GND1"/>
+<wire x1="11.46" y1="34.32" x2="11.46" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D+12">
+<contactref element="JP52" pad="3"/>
+<contactref element="U$26" pad="D+1"/>
+<wire x1="10.16" y1="38.1" x2="10.16" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D-12">
+<contactref element="JP52" pad="4"/>
+<wire x1="9.51" y1="36.21" x2="7.62" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$26" pad="D-1"/>
+<wire x1="9.51" y1="36.21" x2="9.51" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS12">
+<contactref element="JP52" pad="5"/>
+<wire x1="8.86" y1="34.32" x2="5.08" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$26" pad="VBUS1"/>
+<wire x1="8.86" y1="34.32" x2="8.86" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="ID12">
+<contactref element="JP52" pad="2"/>
+<wire x1="10.81" y1="36.21" x2="12.7" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$26" pad="ID1"/>
+<wire x1="10.81" y1="36.21" x2="10.81" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="GND13">
+<contactref element="JP56" pad="1"/>
+<wire x1="32.288" y1="34.32" x2="36.068" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$28" pad="GND1"/>
+<wire x1="32.288" y1="34.32" x2="32.288" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D+13">
+<contactref element="JP56" pad="3"/>
+<contactref element="U$28" pad="D+1"/>
+<wire x1="30.988" y1="38.1" x2="30.988" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D-13">
+<contactref element="JP56" pad="4"/>
+<wire x1="30.338" y1="36.21" x2="28.448" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$28" pad="D-1"/>
+<wire x1="30.338" y1="36.21" x2="30.338" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS13">
+<contactref element="JP56" pad="5"/>
+<wire x1="29.688" y1="34.32" x2="25.908" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$28" pad="VBUS1"/>
+<wire x1="29.688" y1="34.32" x2="29.688" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="ID13">
+<contactref element="JP56" pad="2"/>
+<wire x1="31.638" y1="36.21" x2="33.528" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$28" pad="ID1"/>
+<wire x1="31.638" y1="36.21" x2="31.638" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="GND14">
+<contactref element="JP60" pad="1"/>
+<wire x1="53.116" y1="34.32" x2="56.896" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$30" pad="GND1"/>
+<wire x1="53.116" y1="34.32" x2="53.116" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D+14">
+<contactref element="JP60" pad="3"/>
+<contactref element="U$30" pad="D+1"/>
+<wire x1="51.816" y1="38.1" x2="51.816" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D-14">
+<contactref element="JP60" pad="4"/>
+<wire x1="51.166" y1="36.21" x2="49.276" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$30" pad="D-1"/>
+<wire x1="51.166" y1="36.21" x2="51.166" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS14">
+<contactref element="JP60" pad="5"/>
+<wire x1="50.516" y1="34.32" x2="46.736" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$30" pad="VBUS1"/>
+<wire x1="50.516" y1="34.32" x2="50.516" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="ID14">
+<contactref element="JP60" pad="2"/>
+<wire x1="52.466" y1="36.21" x2="54.356" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$30" pad="ID1"/>
+<wire x1="52.466" y1="36.21" x2="52.466" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="GND15">
+<contactref element="JP64" pad="1"/>
+<wire x1="73.944" y1="34.32" x2="77.724" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$32" pad="GND1"/>
+<wire x1="73.944" y1="34.32" x2="73.944" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D+15">
+<contactref element="JP64" pad="3"/>
+<contactref element="U$32" pad="D+1"/>
+<wire x1="72.644" y1="38.1" x2="72.644" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D-15">
+<contactref element="JP64" pad="4"/>
+<wire x1="71.994" y1="36.21" x2="70.104" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$32" pad="D-1"/>
+<wire x1="71.994" y1="36.21" x2="71.994" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS15">
+<contactref element="JP64" pad="5"/>
+<wire x1="71.344" y1="34.32" x2="67.564" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$32" pad="VBUS1"/>
+<wire x1="71.344" y1="34.32" x2="71.344" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="ID15">
+<contactref element="JP64" pad="2"/>
+<wire x1="73.294" y1="36.21" x2="75.184" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$32" pad="ID1"/>
+<wire x1="73.294" y1="36.21" x2="73.294" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="GND16">
+<contactref element="JP68" pad="1"/>
+<wire x1="94.772" y1="34.32" x2="98.552" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$34" pad="GND1"/>
+<wire x1="94.772" y1="34.32" x2="94.772" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D+16">
+<contactref element="JP68" pad="3"/>
+<contactref element="U$34" pad="D+1"/>
+<wire x1="93.472" y1="38.1" x2="93.472" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D-16">
+<contactref element="JP68" pad="4"/>
+<wire x1="92.822" y1="36.21" x2="90.932" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$34" pad="D-1"/>
+<wire x1="92.822" y1="36.21" x2="92.822" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS16">
+<contactref element="JP68" pad="5"/>
+<wire x1="92.172" y1="34.32" x2="88.392" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$34" pad="VBUS1"/>
+<wire x1="92.172" y1="34.32" x2="92.172" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="ID16">
+<contactref element="JP68" pad="2"/>
+<wire x1="94.122" y1="36.21" x2="96.012" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$34" pad="ID1"/>
+<wire x1="94.122" y1="36.21" x2="94.122" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="GND17">
+<contactref element="JP72" pad="1"/>
+<wire x1="115.6" y1="34.32" x2="119.38" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$36" pad="GND1"/>
+<wire x1="115.6" y1="34.32" x2="115.6" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D+17">
+<contactref element="JP72" pad="3"/>
+<contactref element="U$36" pad="D+1"/>
+<wire x1="114.3" y1="38.1" x2="114.3" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="D-17">
+<contactref element="JP72" pad="4"/>
+<wire x1="113.65" y1="36.21" x2="111.76" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$36" pad="D-1"/>
+<wire x1="113.65" y1="36.21" x2="113.65" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS17">
+<contactref element="JP72" pad="5"/>
+<wire x1="113" y1="34.32" x2="109.22" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$36" pad="VBUS1"/>
+<wire x1="113" y1="34.32" x2="113" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="ID17">
+<contactref element="JP72" pad="2"/>
+<wire x1="114.95" y1="36.21" x2="116.84" y2="38.1" width="0.254" layer="1"/>
+<contactref element="U$36" pad="ID1"/>
+<wire x1="114.95" y1="36.21" x2="114.95" y2="32.291" width="0.254" layer="1"/>
+</signal>
+<signal name="GND18">
+<contactref element="JP76" pad="1"/>
+<wire x1="11.46" y1="48.29" x2="15.24" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$38" pad="GND1"/>
+<wire x1="11.46" y1="48.29" x2="11.46" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D+18">
+<contactref element="JP76" pad="3"/>
+<contactref element="U$38" pad="D+1"/>
+<wire x1="10.16" y1="52.07" x2="10.16" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D-18">
+<contactref element="JP76" pad="4"/>
+<wire x1="9.51" y1="50.18" x2="7.62" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$38" pad="D-1"/>
+<wire x1="9.51" y1="50.18" x2="9.51" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS18">
+<contactref element="JP76" pad="5"/>
+<wire x1="8.86" y1="48.29" x2="5.08" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$38" pad="VBUS1"/>
+<wire x1="8.86" y1="48.29" x2="8.86" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="ID18">
+<contactref element="JP76" pad="2"/>
+<wire x1="10.81" y1="50.18" x2="12.7" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$38" pad="ID1"/>
+<wire x1="10.81" y1="50.18" x2="10.81" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="GND19">
+<contactref element="JP80" pad="1"/>
+<wire x1="32.288" y1="48.29" x2="36.068" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$40" pad="GND1"/>
+<wire x1="32.288" y1="48.29" x2="32.288" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D+19">
+<contactref element="JP80" pad="3"/>
+<contactref element="U$40" pad="D+1"/>
+<wire x1="30.988" y1="52.07" x2="30.988" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D-19">
+<contactref element="JP80" pad="4"/>
+<wire x1="30.338" y1="50.18" x2="28.448" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$40" pad="D-1"/>
+<wire x1="30.338" y1="50.18" x2="30.338" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS19">
+<contactref element="JP80" pad="5"/>
+<wire x1="29.688" y1="48.29" x2="25.908" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$40" pad="VBUS1"/>
+<wire x1="29.688" y1="48.29" x2="29.688" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="ID19">
+<contactref element="JP80" pad="2"/>
+<wire x1="31.638" y1="50.18" x2="33.528" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$40" pad="ID1"/>
+<wire x1="31.638" y1="50.18" x2="31.638" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="GND20">
+<contactref element="JP84" pad="1"/>
+<wire x1="53.116" y1="48.29" x2="56.896" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$42" pad="GND1"/>
+<wire x1="53.116" y1="48.29" x2="53.116" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D+20">
+<contactref element="JP84" pad="3"/>
+<contactref element="U$42" pad="D+1"/>
+<wire x1="51.816" y1="52.07" x2="51.816" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D-20">
+<contactref element="JP84" pad="4"/>
+<wire x1="51.166" y1="50.18" x2="49.276" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$42" pad="D-1"/>
+<wire x1="51.166" y1="50.18" x2="51.166" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS20">
+<contactref element="JP84" pad="5"/>
+<wire x1="50.516" y1="48.29" x2="46.736" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$42" pad="VBUS1"/>
+<wire x1="50.516" y1="48.29" x2="50.516" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="ID20">
+<contactref element="JP84" pad="2"/>
+<wire x1="52.466" y1="50.18" x2="54.356" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$42" pad="ID1"/>
+<wire x1="52.466" y1="50.18" x2="52.466" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="GND21">
+<contactref element="JP88" pad="1"/>
+<wire x1="73.944" y1="48.29" x2="77.724" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$44" pad="GND1"/>
+<wire x1="73.944" y1="48.29" x2="73.944" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D+21">
+<contactref element="JP88" pad="3"/>
+<contactref element="U$44" pad="D+1"/>
+<wire x1="72.644" y1="52.07" x2="72.644" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D-21">
+<contactref element="JP88" pad="4"/>
+<wire x1="71.994" y1="50.18" x2="70.104" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$44" pad="D-1"/>
+<wire x1="71.994" y1="50.18" x2="71.994" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS21">
+<contactref element="JP88" pad="5"/>
+<wire x1="71.344" y1="48.29" x2="67.564" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$44" pad="VBUS1"/>
+<wire x1="71.344" y1="48.29" x2="71.344" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="ID21">
+<contactref element="JP88" pad="2"/>
+<wire x1="73.294" y1="50.18" x2="75.184" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$44" pad="ID1"/>
+<wire x1="73.294" y1="50.18" x2="73.294" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="GND22">
+<contactref element="JP92" pad="1"/>
+<wire x1="94.772" y1="48.29" x2="98.552" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$46" pad="GND1"/>
+<wire x1="94.772" y1="48.29" x2="94.772" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D+22">
+<contactref element="JP92" pad="3"/>
+<contactref element="U$46" pad="D+1"/>
+<wire x1="93.472" y1="52.07" x2="93.472" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D-22">
+<contactref element="JP92" pad="4"/>
+<wire x1="92.822" y1="50.18" x2="90.932" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$46" pad="D-1"/>
+<wire x1="92.822" y1="50.18" x2="92.822" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS22">
+<contactref element="JP92" pad="5"/>
+<wire x1="92.172" y1="48.29" x2="88.392" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$46" pad="VBUS1"/>
+<wire x1="92.172" y1="48.29" x2="92.172" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="ID22">
+<contactref element="JP92" pad="2"/>
+<wire x1="94.122" y1="50.18" x2="96.012" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$46" pad="ID1"/>
+<wire x1="94.122" y1="50.18" x2="94.122" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="GND23">
+<contactref element="JP96" pad="1"/>
+<wire x1="115.6" y1="48.29" x2="119.38" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$48" pad="GND1"/>
+<wire x1="115.6" y1="48.29" x2="115.6" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D+23">
+<contactref element="JP96" pad="3"/>
+<contactref element="U$48" pad="D+1"/>
+<wire x1="114.3" y1="52.07" x2="114.3" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="D-23">
+<contactref element="JP96" pad="4"/>
+<wire x1="113.65" y1="50.18" x2="111.76" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$48" pad="D-1"/>
+<wire x1="113.65" y1="50.18" x2="113.65" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS23">
+<contactref element="JP96" pad="5"/>
+<wire x1="113" y1="48.29" x2="109.22" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$48" pad="VBUS1"/>
+<wire x1="113" y1="48.29" x2="113" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="ID23">
+<contactref element="JP96" pad="2"/>
+<wire x1="114.95" y1="50.18" x2="116.84" y2="52.07" width="0.254" layer="1"/>
+<contactref element="U$48" pad="ID1"/>
+<wire x1="114.95" y1="50.18" x2="114.95" y2="46.261" width="0.254" layer="1"/>
+</signal>
+<signal name="GND24">
+<contactref element="JP100" pad="1"/>
+<wire x1="11.46" y1="62.26" x2="15.24" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$50" pad="GND1"/>
+<wire x1="11.46" y1="62.26" x2="11.46" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D+24">
+<contactref element="JP100" pad="3"/>
+<contactref element="U$50" pad="D+1"/>
+<wire x1="10.16" y1="66.04" x2="10.16" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D-24">
+<contactref element="JP100" pad="4"/>
+<wire x1="9.51" y1="64.15" x2="7.62" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$50" pad="D-1"/>
+<wire x1="9.51" y1="64.15" x2="9.51" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS24">
+<contactref element="JP100" pad="5"/>
+<wire x1="8.86" y1="62.26" x2="5.08" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$50" pad="VBUS1"/>
+<wire x1="8.86" y1="62.26" x2="8.86" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="ID24">
+<contactref element="JP100" pad="2"/>
+<wire x1="10.81" y1="64.15" x2="12.7" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$50" pad="ID1"/>
+<wire x1="10.81" y1="64.15" x2="10.81" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="GND25">
+<contactref element="JP104" pad="1"/>
+<wire x1="32.288" y1="62.26" x2="36.068" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$52" pad="GND1"/>
+<wire x1="32.288" y1="62.26" x2="32.288" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D+25">
+<contactref element="JP104" pad="3"/>
+<contactref element="U$52" pad="D+1"/>
+<wire x1="30.988" y1="66.04" x2="30.988" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D-25">
+<contactref element="JP104" pad="4"/>
+<wire x1="30.338" y1="64.15" x2="28.448" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$52" pad="D-1"/>
+<wire x1="30.338" y1="64.15" x2="30.338" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS25">
+<contactref element="JP104" pad="5"/>
+<wire x1="29.688" y1="62.26" x2="25.908" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$52" pad="VBUS1"/>
+<wire x1="29.688" y1="62.26" x2="29.688" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="ID25">
+<contactref element="JP104" pad="2"/>
+<wire x1="31.638" y1="64.15" x2="33.528" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$52" pad="ID1"/>
+<wire x1="31.638" y1="64.15" x2="31.638" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="GND26">
+<contactref element="JP108" pad="1"/>
+<wire x1="53.116" y1="62.26" x2="56.896" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$54" pad="GND1"/>
+<wire x1="53.116" y1="62.26" x2="53.116" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D+26">
+<contactref element="JP108" pad="3"/>
+<contactref element="U$54" pad="D+1"/>
+<wire x1="51.816" y1="66.04" x2="51.816" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D-26">
+<contactref element="JP108" pad="4"/>
+<wire x1="51.166" y1="64.15" x2="49.276" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$54" pad="D-1"/>
+<wire x1="51.166" y1="64.15" x2="51.166" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS26">
+<contactref element="JP108" pad="5"/>
+<wire x1="50.516" y1="62.26" x2="46.736" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$54" pad="VBUS1"/>
+<wire x1="50.516" y1="62.26" x2="50.516" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="ID26">
+<contactref element="JP108" pad="2"/>
+<wire x1="52.466" y1="64.15" x2="54.356" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$54" pad="ID1"/>
+<wire x1="52.466" y1="64.15" x2="52.466" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="GND27">
+<contactref element="JP112" pad="1"/>
+<wire x1="73.944" y1="62.26" x2="77.724" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$56" pad="GND1"/>
+<wire x1="73.944" y1="62.26" x2="73.944" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D+27">
+<contactref element="JP112" pad="3"/>
+<contactref element="U$56" pad="D+1"/>
+<wire x1="72.644" y1="66.04" x2="72.644" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D-27">
+<contactref element="JP112" pad="4"/>
+<wire x1="71.994" y1="64.15" x2="70.104" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$56" pad="D-1"/>
+<wire x1="71.994" y1="64.15" x2="71.994" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS27">
+<contactref element="JP112" pad="5"/>
+<wire x1="71.344" y1="62.26" x2="67.564" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$56" pad="VBUS1"/>
+<wire x1="71.344" y1="62.26" x2="71.344" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="ID27">
+<contactref element="JP112" pad="2"/>
+<wire x1="73.294" y1="64.15" x2="75.184" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$56" pad="ID1"/>
+<wire x1="73.294" y1="64.15" x2="73.294" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="GND28">
+<contactref element="JP116" pad="1"/>
+<wire x1="94.772" y1="62.26" x2="98.552" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$58" pad="GND1"/>
+<wire x1="94.772" y1="62.26" x2="94.772" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D+28">
+<contactref element="JP116" pad="3"/>
+<contactref element="U$58" pad="D+1"/>
+<wire x1="93.472" y1="66.04" x2="93.472" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D-28">
+<contactref element="JP116" pad="4"/>
+<wire x1="92.822" y1="64.15" x2="90.932" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$58" pad="D-1"/>
+<wire x1="92.822" y1="64.15" x2="92.822" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS28">
+<contactref element="JP116" pad="5"/>
+<wire x1="92.172" y1="62.26" x2="88.392" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$58" pad="VBUS1"/>
+<wire x1="92.172" y1="62.26" x2="92.172" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="ID28">
+<contactref element="JP116" pad="2"/>
+<wire x1="94.122" y1="64.15" x2="96.012" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$58" pad="ID1"/>
+<wire x1="94.122" y1="64.15" x2="94.122" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="GND29">
+<contactref element="JP120" pad="1"/>
+<wire x1="115.6" y1="62.26" x2="119.38" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$60" pad="GND1"/>
+<wire x1="115.6" y1="62.26" x2="115.6" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D+29">
+<contactref element="JP120" pad="3"/>
+<contactref element="U$60" pad="D+1"/>
+<wire x1="114.3" y1="66.04" x2="114.3" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="D-29">
+<contactref element="JP120" pad="4"/>
+<wire x1="113.65" y1="64.15" x2="111.76" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$60" pad="D-1"/>
+<wire x1="113.65" y1="64.15" x2="113.65" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS29">
+<contactref element="JP120" pad="5"/>
+<wire x1="113" y1="62.26" x2="109.22" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$60" pad="VBUS1"/>
+<wire x1="113" y1="62.26" x2="113" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="ID29">
+<contactref element="JP120" pad="2"/>
+<wire x1="114.95" y1="64.15" x2="116.84" y2="66.04" width="0.254" layer="1"/>
+<contactref element="U$60" pad="ID1"/>
+<wire x1="114.95" y1="64.15" x2="114.95" y2="60.231" width="0.254" layer="1"/>
+</signal>
+<signal name="GND30">
+<contactref element="JP124" pad="1"/>
+<wire x1="11.46" y1="76.23" x2="15.24" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$62" pad="GND1"/>
+<wire x1="11.46" y1="76.23" x2="11.46" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D+30">
+<contactref element="JP124" pad="3"/>
+<contactref element="U$62" pad="D+1"/>
+<wire x1="10.16" y1="80.01" x2="10.16" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D-30">
+<contactref element="JP124" pad="4"/>
+<wire x1="9.51" y1="78.12" x2="7.62" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$62" pad="D-1"/>
+<wire x1="9.51" y1="78.12" x2="9.51" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS30">
+<contactref element="JP124" pad="5"/>
+<wire x1="8.86" y1="76.23" x2="5.08" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$62" pad="VBUS1"/>
+<wire x1="8.86" y1="76.23" x2="8.86" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="ID30">
+<contactref element="JP124" pad="2"/>
+<wire x1="10.81" y1="78.12" x2="12.7" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$62" pad="ID1"/>
+<wire x1="10.81" y1="78.12" x2="10.81" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="GND31">
+<contactref element="JP128" pad="1"/>
+<wire x1="32.288" y1="76.23" x2="36.068" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$64" pad="GND1"/>
+<wire x1="32.288" y1="76.23" x2="32.288" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D+31">
+<contactref element="JP128" pad="3"/>
+<contactref element="U$64" pad="D+1"/>
+<wire x1="30.988" y1="80.01" x2="30.988" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D-31">
+<contactref element="JP128" pad="4"/>
+<wire x1="30.338" y1="78.12" x2="28.448" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$64" pad="D-1"/>
+<wire x1="30.338" y1="78.12" x2="30.338" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS31">
+<contactref element="JP128" pad="5"/>
+<wire x1="29.688" y1="76.23" x2="25.908" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$64" pad="VBUS1"/>
+<wire x1="29.688" y1="76.23" x2="29.688" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="ID31">
+<contactref element="JP128" pad="2"/>
+<wire x1="31.638" y1="78.12" x2="33.528" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$64" pad="ID1"/>
+<wire x1="31.638" y1="78.12" x2="31.638" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="GND32">
+<contactref element="JP132" pad="1"/>
+<wire x1="53.116" y1="76.23" x2="56.896" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$66" pad="GND1"/>
+<wire x1="53.116" y1="76.23" x2="53.116" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D+32">
+<contactref element="JP132" pad="3"/>
+<contactref element="U$66" pad="D+1"/>
+<wire x1="51.816" y1="80.01" x2="51.816" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D-32">
+<contactref element="JP132" pad="4"/>
+<wire x1="51.166" y1="78.12" x2="49.276" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$66" pad="D-1"/>
+<wire x1="51.166" y1="78.12" x2="51.166" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS32">
+<contactref element="JP132" pad="5"/>
+<wire x1="50.516" y1="76.23" x2="46.736" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$66" pad="VBUS1"/>
+<wire x1="50.516" y1="76.23" x2="50.516" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="ID32">
+<contactref element="JP132" pad="2"/>
+<wire x1="52.466" y1="78.12" x2="54.356" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$66" pad="ID1"/>
+<wire x1="52.466" y1="78.12" x2="52.466" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="GND33">
+<contactref element="JP136" pad="1"/>
+<wire x1="73.944" y1="76.23" x2="77.724" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$68" pad="GND1"/>
+<wire x1="73.944" y1="76.23" x2="73.944" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D+33">
+<contactref element="JP136" pad="3"/>
+<contactref element="U$68" pad="D+1"/>
+<wire x1="72.644" y1="80.01" x2="72.644" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D-33">
+<contactref element="JP136" pad="4"/>
+<wire x1="71.994" y1="78.12" x2="70.104" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$68" pad="D-1"/>
+<wire x1="71.994" y1="78.12" x2="71.994" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS33">
+<contactref element="JP136" pad="5"/>
+<wire x1="71.344" y1="76.23" x2="67.564" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$68" pad="VBUS1"/>
+<wire x1="71.344" y1="76.23" x2="71.344" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="ID33">
+<contactref element="JP136" pad="2"/>
+<wire x1="73.294" y1="78.12" x2="75.184" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$68" pad="ID1"/>
+<wire x1="73.294" y1="78.12" x2="73.294" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="GND34">
+<contactref element="JP140" pad="1"/>
+<wire x1="94.772" y1="76.23" x2="98.552" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$70" pad="GND1"/>
+<wire x1="94.772" y1="76.23" x2="94.772" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D+34">
+<contactref element="JP140" pad="3"/>
+<contactref element="U$70" pad="D+1"/>
+<wire x1="93.472" y1="80.01" x2="93.472" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D-34">
+<contactref element="JP140" pad="4"/>
+<wire x1="92.822" y1="78.12" x2="90.932" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$70" pad="D-1"/>
+<wire x1="92.822" y1="78.12" x2="92.822" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS34">
+<contactref element="JP140" pad="5"/>
+<wire x1="92.172" y1="76.23" x2="88.392" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$70" pad="VBUS1"/>
+<wire x1="92.172" y1="76.23" x2="92.172" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="ID34">
+<contactref element="JP140" pad="2"/>
+<wire x1="94.122" y1="78.12" x2="96.012" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$70" pad="ID1"/>
+<wire x1="94.122" y1="78.12" x2="94.122" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="GND35">
+<contactref element="JP144" pad="1"/>
+<wire x1="115.6" y1="76.23" x2="119.38" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$72" pad="GND1"/>
+<wire x1="115.6" y1="76.23" x2="115.6" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D+35">
+<contactref element="JP144" pad="3"/>
+<contactref element="U$72" pad="D+1"/>
+<wire x1="114.3" y1="80.01" x2="114.3" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="D-35">
+<contactref element="JP144" pad="4"/>
+<wire x1="113.65" y1="78.12" x2="111.76" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$72" pad="D-1"/>
+<wire x1="113.65" y1="78.12" x2="113.65" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS35">
+<contactref element="JP144" pad="5"/>
+<wire x1="113" y1="76.23" x2="109.22" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$72" pad="VBUS1"/>
+<wire x1="113" y1="76.23" x2="113" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="ID35">
+<contactref element="JP144" pad="2"/>
+<wire x1="114.95" y1="78.12" x2="116.84" y2="80.01" width="0.254" layer="1"/>
+<contactref element="U$72" pad="ID1"/>
+<wire x1="114.95" y1="78.12" x2="114.95" y2="74.201" width="0.254" layer="1"/>
+</signal>
+<signal name="GND36">
+<contactref element="JP148" pad="1"/>
+<wire x1="11.46" y1="90.2" x2="15.24" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$74" pad="GND1"/>
+<wire x1="11.46" y1="90.2" x2="11.46" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D+36">
+<contactref element="JP148" pad="3"/>
+<contactref element="U$74" pad="D+1"/>
+<wire x1="10.16" y1="93.98" x2="10.16" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D-36">
+<contactref element="JP148" pad="4"/>
+<wire x1="9.51" y1="92.09" x2="7.62" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$74" pad="D-1"/>
+<wire x1="9.51" y1="92.09" x2="9.51" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS36">
+<contactref element="JP148" pad="5"/>
+<wire x1="8.86" y1="90.2" x2="5.08" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$74" pad="VBUS1"/>
+<wire x1="8.86" y1="90.2" x2="8.86" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="ID36">
+<contactref element="JP148" pad="2"/>
+<wire x1="10.81" y1="92.09" x2="12.7" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$74" pad="ID1"/>
+<wire x1="10.81" y1="92.09" x2="10.81" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="GND37">
+<contactref element="JP152" pad="1"/>
+<wire x1="32.288" y1="90.2" x2="36.068" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$76" pad="GND1"/>
+<wire x1="32.288" y1="90.2" x2="32.288" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D+37">
+<contactref element="JP152" pad="3"/>
+<contactref element="U$76" pad="D+1"/>
+<wire x1="30.988" y1="93.98" x2="30.988" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D-37">
+<contactref element="JP152" pad="4"/>
+<wire x1="30.338" y1="92.09" x2="28.448" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$76" pad="D-1"/>
+<wire x1="30.338" y1="92.09" x2="30.338" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS37">
+<contactref element="JP152" pad="5"/>
+<wire x1="29.688" y1="90.2" x2="25.908" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$76" pad="VBUS1"/>
+<wire x1="29.688" y1="90.2" x2="29.688" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="ID37">
+<contactref element="JP152" pad="2"/>
+<wire x1="31.638" y1="92.09" x2="33.528" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$76" pad="ID1"/>
+<wire x1="31.638" y1="92.09" x2="31.638" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="GND38">
+<contactref element="JP156" pad="1"/>
+<wire x1="53.116" y1="90.2" x2="56.896" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$78" pad="GND1"/>
+<wire x1="53.116" y1="90.2" x2="53.116" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D+38">
+<contactref element="JP156" pad="3"/>
+<contactref element="U$78" pad="D+1"/>
+<wire x1="51.816" y1="93.98" x2="51.816" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D-38">
+<contactref element="JP156" pad="4"/>
+<wire x1="51.166" y1="92.09" x2="49.276" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$78" pad="D-1"/>
+<wire x1="51.166" y1="92.09" x2="51.166" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS38">
+<contactref element="JP156" pad="5"/>
+<wire x1="50.516" y1="90.2" x2="46.736" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$78" pad="VBUS1"/>
+<wire x1="50.516" y1="90.2" x2="50.516" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="ID38">
+<contactref element="JP156" pad="2"/>
+<wire x1="52.466" y1="92.09" x2="54.356" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$78" pad="ID1"/>
+<wire x1="52.466" y1="92.09" x2="52.466" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="GND39">
+<contactref element="JP160" pad="1"/>
+<wire x1="73.944" y1="90.2" x2="77.724" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$80" pad="GND1"/>
+<wire x1="73.944" y1="90.2" x2="73.944" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D+39">
+<contactref element="JP160" pad="3"/>
+<contactref element="U$80" pad="D+1"/>
+<wire x1="72.644" y1="93.98" x2="72.644" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D-39">
+<contactref element="JP160" pad="4"/>
+<wire x1="71.994" y1="92.09" x2="70.104" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$80" pad="D-1"/>
+<wire x1="71.994" y1="92.09" x2="71.994" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS39">
+<contactref element="JP160" pad="5"/>
+<wire x1="71.344" y1="90.2" x2="67.564" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$80" pad="VBUS1"/>
+<wire x1="71.344" y1="90.2" x2="71.344" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="ID39">
+<contactref element="JP160" pad="2"/>
+<wire x1="73.294" y1="92.09" x2="75.184" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$80" pad="ID1"/>
+<wire x1="73.294" y1="92.09" x2="73.294" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="GND40">
+<contactref element="JP164" pad="1"/>
+<wire x1="94.772" y1="90.2" x2="98.552" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$82" pad="GND1"/>
+<wire x1="94.772" y1="90.2" x2="94.772" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D+40">
+<contactref element="JP164" pad="3"/>
+<contactref element="U$82" pad="D+1"/>
+<wire x1="93.472" y1="93.98" x2="93.472" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D-40">
+<contactref element="JP164" pad="4"/>
+<wire x1="92.822" y1="92.09" x2="90.932" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$82" pad="D-1"/>
+<wire x1="92.822" y1="92.09" x2="92.822" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS40">
+<contactref element="JP164" pad="5"/>
+<wire x1="92.172" y1="90.2" x2="88.392" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$82" pad="VBUS1"/>
+<wire x1="92.172" y1="90.2" x2="92.172" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="ID40">
+<contactref element="JP164" pad="2"/>
+<wire x1="94.122" y1="92.09" x2="96.012" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$82" pad="ID1"/>
+<wire x1="94.122" y1="92.09" x2="94.122" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="GND41">
+<contactref element="JP168" pad="1"/>
+<wire x1="115.6" y1="90.2" x2="119.38" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$84" pad="GND1"/>
+<wire x1="115.6" y1="90.2" x2="115.6" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D+41">
+<contactref element="JP168" pad="3"/>
+<contactref element="U$84" pad="D+1"/>
+<wire x1="114.3" y1="93.98" x2="114.3" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="D-41">
+<contactref element="JP168" pad="4"/>
+<wire x1="113.65" y1="92.09" x2="111.76" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$84" pad="D-1"/>
+<wire x1="113.65" y1="92.09" x2="113.65" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS41">
+<contactref element="JP168" pad="5"/>
+<wire x1="113" y1="90.2" x2="109.22" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$84" pad="VBUS1"/>
+<wire x1="113" y1="90.2" x2="113" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="ID41">
+<contactref element="JP168" pad="2"/>
+<wire x1="114.95" y1="92.09" x2="116.84" y2="93.98" width="0.254" layer="1"/>
+<contactref element="U$84" pad="ID1"/>
+<wire x1="114.95" y1="92.09" x2="114.95" y2="88.171" width="0.254" layer="1"/>
+</signal>
+<signal name="GND42">
+<contactref element="JP172" pad="1"/>
+<wire x1="11.46" y1="104.17" x2="15.24" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$86" pad="GND1"/>
+<wire x1="11.46" y1="104.17" x2="11.46" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D+42">
+<contactref element="JP172" pad="3"/>
+<contactref element="U$86" pad="D+1"/>
+<wire x1="10.16" y1="107.95" x2="10.16" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D-42">
+<contactref element="JP172" pad="4"/>
+<wire x1="9.51" y1="106.06" x2="7.62" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$86" pad="D-1"/>
+<wire x1="9.51" y1="106.06" x2="9.51" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS42">
+<contactref element="JP172" pad="5"/>
+<wire x1="8.86" y1="104.17" x2="5.08" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$86" pad="VBUS1"/>
+<wire x1="8.86" y1="104.17" x2="8.86" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="ID42">
+<contactref element="JP172" pad="2"/>
+<wire x1="10.81" y1="106.06" x2="12.7" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$86" pad="ID1"/>
+<wire x1="10.81" y1="106.06" x2="10.81" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="GND43">
+<contactref element="JP176" pad="1"/>
+<wire x1="32.288" y1="104.17" x2="36.068" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$88" pad="GND1"/>
+<wire x1="32.288" y1="104.17" x2="32.288" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D+43">
+<contactref element="JP176" pad="3"/>
+<contactref element="U$88" pad="D+1"/>
+<wire x1="30.988" y1="107.95" x2="30.988" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D-43">
+<contactref element="JP176" pad="4"/>
+<wire x1="30.338" y1="106.06" x2="28.448" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$88" pad="D-1"/>
+<wire x1="30.338" y1="106.06" x2="30.338" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS43">
+<contactref element="JP176" pad="5"/>
+<wire x1="29.688" y1="104.17" x2="25.908" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$88" pad="VBUS1"/>
+<wire x1="29.688" y1="104.17" x2="29.688" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="ID43">
+<contactref element="JP176" pad="2"/>
+<wire x1="31.638" y1="106.06" x2="33.528" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$88" pad="ID1"/>
+<wire x1="31.638" y1="106.06" x2="31.638" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="GND44">
+<contactref element="JP180" pad="1"/>
+<wire x1="53.116" y1="104.17" x2="56.896" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$90" pad="GND1"/>
+<wire x1="53.116" y1="104.17" x2="53.116" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D+44">
+<contactref element="JP180" pad="3"/>
+<contactref element="U$90" pad="D+1"/>
+<wire x1="51.816" y1="107.95" x2="51.816" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D-44">
+<contactref element="JP180" pad="4"/>
+<wire x1="51.166" y1="106.06" x2="49.276" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$90" pad="D-1"/>
+<wire x1="51.166" y1="106.06" x2="51.166" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS44">
+<contactref element="JP180" pad="5"/>
+<wire x1="50.516" y1="104.17" x2="46.736" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$90" pad="VBUS1"/>
+<wire x1="50.516" y1="104.17" x2="50.516" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="ID44">
+<contactref element="JP180" pad="2"/>
+<wire x1="52.466" y1="106.06" x2="54.356" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$90" pad="ID1"/>
+<wire x1="52.466" y1="106.06" x2="52.466" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="GND45">
+<contactref element="JP184" pad="1"/>
+<wire x1="73.944" y1="104.17" x2="77.724" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$92" pad="GND1"/>
+<wire x1="73.944" y1="104.17" x2="73.944" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D+45">
+<contactref element="JP184" pad="3"/>
+<contactref element="U$92" pad="D+1"/>
+<wire x1="72.644" y1="107.95" x2="72.644" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D-45">
+<contactref element="JP184" pad="4"/>
+<wire x1="71.994" y1="106.06" x2="70.104" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$92" pad="D-1"/>
+<wire x1="71.994" y1="106.06" x2="71.994" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS45">
+<contactref element="JP184" pad="5"/>
+<wire x1="71.344" y1="104.17" x2="67.564" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$92" pad="VBUS1"/>
+<wire x1="71.344" y1="104.17" x2="71.344" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="ID45">
+<contactref element="JP184" pad="2"/>
+<wire x1="73.294" y1="106.06" x2="75.184" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$92" pad="ID1"/>
+<wire x1="73.294" y1="106.06" x2="73.294" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="GND46">
+<contactref element="JP188" pad="1"/>
+<wire x1="94.772" y1="104.17" x2="98.552" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$94" pad="GND1"/>
+<wire x1="94.772" y1="104.17" x2="94.772" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D+46">
+<contactref element="JP188" pad="3"/>
+<contactref element="U$94" pad="D+1"/>
+<wire x1="93.472" y1="107.95" x2="93.472" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D-46">
+<contactref element="JP188" pad="4"/>
+<wire x1="92.822" y1="106.06" x2="90.932" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$94" pad="D-1"/>
+<wire x1="92.822" y1="106.06" x2="92.822" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS46">
+<contactref element="JP188" pad="5"/>
+<wire x1="92.172" y1="104.17" x2="88.392" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$94" pad="VBUS1"/>
+<wire x1="92.172" y1="104.17" x2="92.172" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="ID46">
+<contactref element="JP188" pad="2"/>
+<wire x1="94.122" y1="106.06" x2="96.012" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$94" pad="ID1"/>
+<wire x1="94.122" y1="106.06" x2="94.122" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="GND47">
+<contactref element="JP192" pad="1"/>
+<wire x1="115.6" y1="104.17" x2="119.38" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$96" pad="GND1"/>
+<wire x1="115.6" y1="104.17" x2="115.6" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D+47">
+<contactref element="JP192" pad="3"/>
+<contactref element="U$96" pad="D+1"/>
+<wire x1="114.3" y1="107.95" x2="114.3" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="D-47">
+<contactref element="JP192" pad="4"/>
+<wire x1="113.65" y1="106.06" x2="111.76" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$96" pad="D-1"/>
+<wire x1="113.65" y1="106.06" x2="113.65" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="VBUS47">
+<contactref element="JP192" pad="5"/>
+<wire x1="113" y1="104.17" x2="109.22" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$96" pad="VBUS1"/>
+<wire x1="113" y1="104.17" x2="113" y2="102.141" width="0.254" layer="1"/>
+</signal>
+<signal name="ID47">
+<contactref element="JP192" pad="2"/>
+<wire x1="114.95" y1="106.06" x2="116.84" y2="107.95" width="0.254" layer="1"/>
+<contactref element="U$96" pad="ID1"/>
+<wire x1="114.95" y1="106.06" x2="114.95" y2="102.141" width="0.254" layer="1"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>
