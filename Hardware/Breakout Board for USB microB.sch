@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5119,7 +5119,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP5" library="SparkFun" deviceset="M05" device="PTH"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="CREATIVE_COMMONS" device=""/>
 <part name="U$3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="U$4" library="SparkFun-Connectors" deviceset="USB-AB" device="CONN-11794"/>
+<part name="U$4" library="SparkFun-Connectors" deviceset="USB-AB" device="CONN-11794" value="MICRO_AB_USB"/>
 </parts>
 <sheets>
 <sheet>
