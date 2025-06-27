@@ -2,7 +2,7 @@ Breakout Board for USB microB
 =============================
 
 
-[![USB microB Breakout](https://dlnmh9ip6v2uc.cloudfront.net/images/products/9/6/1/4/09614-01b_i_ma.jpg)  
+[![USB microB Breakout](https://cdn.sparkfun.com/assets/parts/3/4/4/4/09614-01b.jpg)  
 *USB microB Breakout (BOB-09614)*](https://www.sparkfun.com/products/9614)
 
 This breakout board gives access to a micro-B USB connector's VCC, GND, D-, and D+ pins. 
